@@ -303,3 +303,182 @@
        [  0,  14,   2,   0, 395,   2,   0],
        [  0,   1,  28,  12,   3, 414,   0],
        [  5,   0,   0,   0,   0,   0, 441]])]"
+---
+20/03/2022 14:19:50
+"{'model': LGBMClassifier(), 'add_eng_features': False, 'add_climate': False, 'add_geographic': False, 'add_family': False, 'add_rocky': False, 'add_stony': False, 'keep_initial_rows': True, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+17.34
+0.9890873015873016
+"[array([[1296,    9],
+       [  24, 1695]])]"
+---
+20/03/2022 14:29:32
+"{'model': LGBMClassifier(), 'add_eng_features': False, 'add_climate': False, 'add_geographic': False, 'add_family': False, 'add_rocky': False, 'add_stony': False, 'keep_initial_rows': True, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+17.04
+0.9890873015873016
+"[array([[1296,    9],
+       [  24, 1695]])]"
+---
+20/03/2022 14:32:11
+"{'model': LGBMClassifier(), 'add_eng_features': False, 'add_climate': False, 'add_geographic': False, 'add_family': False, 'add_rocky': False, 'add_stony': False, 'keep_initial_rows': True, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+17.12
+0.9890873015873016
+"[array([[1296,    9],
+       [  24, 1695]])]"
+---
+20/03/2022 14:39:32
+"{'model': LGBMClassifier(), 'add_eng_features': False, 'add_climate': False, 'add_geographic': False, 'add_family': False, 'add_rocky': False, 'add_stony': False, 'keep_initial_rows': True, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+16.51
+0.9890873015873016
+"[array([[1296,    9],
+       [  24, 1695]])]"
+---
+20/03/2022 14:41:57
+"{'model': LGBMClassifier(), 'add_eng_features': False, 'add_climate': False, 'add_geographic': False, 'add_family': False, 'add_rocky': False, 'add_stony': False, 'keep_initial_rows': True, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+17.77
+0.9358465608465608
+"[array([[1241,   66],
+       [ 128, 1589]])]"
+---
+20/03/2022 14:44:22
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+78.73
+0.9884259259259259
+"[array([[1293,   12],
+       [  23, 1696]])]"
+---
+20/03/2022 14:47:02
+"{'model': LGBMClassifier(), 'add_eng_features': False, 'add_climate': False, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+77.64
+0.9894179894179894
+"[array([[1296,    9],
+       [  23, 1696]])]"
+---
+20/03/2022 14:48:35
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': False, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+78.18
+0.9880952380952381
+"[array([[1291,   14],
+       [  22, 1697]])]"
+---
+20/03/2022 15:01:34
+"{'model': LGBMClassifier(), 'add_eng_features': False, 'add_climate': False, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+56.77
+0.9894179894179894
+"[array([[1296,    9],
+       [  23, 1696]])]"
+---
+20/03/2022 15:09:23
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+49.95
+0.8802083333333334
+"[array([[353,  57,   8,  30],
+       [ 56, 331,  37,   4],
+       [  0,   7, 405,   0],
+       [  7,   0,   1, 432]])]"
+---
+20/03/2022 15:13:42
+"{'model': LGBMClassifier(), 'add_eng_features': False, 'add_climate': False, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+53.01
+0.9894179894179894
+"[array([[1296,    9],
+       [  23, 1696]])]"
+---
+20/03/2022 15:22:57
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+49.36
+0.8802083333333334
+"[array([[353,  57,   8,  30],
+       [ 56, 331,  37,   4],
+       [  0,   7, 405,   0],
+       [  7,   0,   1, 432]])]"
+---
+20/03/2022 15:28:11
+"{'model': LGBMClassifier(), 'add_eng_features': False, 'add_climate': False, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+53.0
+0.9894179894179894
+"[array([[1296,    9],
+       [  23, 1696]])]"
+---
+20/03/2022 15:29:11
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+49.47
+0.8802083333333334
+"[array([[353,  57,   8,  30],
+       [ 56, 331,  37,   4],
+       [  0,   7, 405,   0],
+       [  7,   0,   1, 432]])]"
+---
+20/03/2022 15:31:31
+"{'model': LGBMClassifier(), 'add_eng_features': False, 'add_climate': False, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+51.59
+0.8755787037037037
+"[array([[350,  59,  10,  29],
+       [ 64, 325,  35,   4],
+       [  0,   7, 405,   0],
+       [  6,   0,   1, 433]])]"
+---
+20/03/2022 15:32:58
+"{'model': LGBMClassifier(), 'add_eng_features': False, 'add_climate': False, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+58.15
+0.9894179894179894
+"[array([[1296,    9],
+       [  23, 1696]])]"
+---
+20/03/2022 15:35:39
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['GeoZone_2', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+9.31
+0.9290123456790124
+"[array([[403,   9,  41],
+       [  5, 413,   4],
+       [ 23,  10, 388]])]"
+---
+20/03/2022 15:37:48
+"{'model': LGBMClassifier(), 'add_eng_features': False, 'add_climate': False, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+54.49
+0.8755787037037037
+"[array([[350,  59,  10,  29],
+       [ 64, 325,  35,   4],
+       [  0,   7, 405,   0],
+       [  6,   0,   1, 433]])]"
+---
+20/03/2022 15:39:18
+"{'model': LGBMClassifier(), 'add_eng_features': False, 'add_climate': False, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+53.98
+0.8755787037037037
+"[array([[350,  59,  10,  29],
+       [ 64, 325,  35,   4],
+       [  0,   7, 405,   0],
+       [  6,   0,   1, 433]])]"
+---
+20/03/2022 15:40:12
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['GeoZone_2', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+9.97
+0.9290123456790124
+"[array([[403,   9,  41],
+       [  5, 413,   4],
+       [ 23,  10, 388]])]"
+---
+20/03/2022 15:41:06
+"{'model': LGBMClassifier(), 'add_eng_features': False, 'add_climate': False, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+54.69
+0.8755787037037037
+"[array([[350,  59,  10,  29],
+       [ 64, 325,  35,   4],
+       [  0,   7, 405,   0],
+       [  6,   0,   1, 433]])]"
+---
+20/03/2022 15:58:09
+"{'model': LGBMClassifier(), 'add_eng_features': False, 'add_climate': False, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+57.53
+0.9894179894179894
+"[array([[1296,    9],
+       [  23, 1696]])]"
+---
+20/03/2022 16:11:02
+"{'model': LGBMClassifier(), 'add_eng_features': False, 'add_climate': False, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+53.67
+0.8755787037037037
+"[array([[350,  59,  10,  29],
+       [ 64, 325,  35,   4],
+       [  0,   7, 405,   0],
+       [  6,   0,   1, 433]])]"

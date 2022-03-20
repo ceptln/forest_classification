@@ -133,7 +133,7 @@ def outlier_function(df, col_name):
     return lower_limit, upper_limit, outlier_count
 
 
-def relabel(df, first_group, second_group, third_group=None):
+def relabel(df, first_group, second_group, third_group=None, drop_cover_type=True):
     
     """ 
     Create higher-level groups of cover types
@@ -145,7 +145,24 @@ def relabel(df, first_group, second_group, third_group=None):
     else:
         df_relabeled['Cover_Group'] = np.where(df['Cover_Type'].isin(first_group), 2, np.where(df['Cover_Type'].isin(second_group), 1, 0))
 
+    if drop_cover_type:
+        df_relabeled.drop(columns=['Cover_Type'], inplace=True)
+
     return df_relabeled
+
+
+def split_in_groups(df, first_group, second_group, third_group=None, target='Cover_Type'):
+    
+    df_prep = df.copy()
+    if third_group == None:
+        df_g1 = df_prep[np.where(df[target].isin(first_group), True, False)]
+        df_g2 = df_prep[np.where(df[target].isin(second_group), True, False)]
+        return df_g1, df_g2
+    else:
+        df_g1 = df_prep[np.where(df[target].isin(first_group), True, False)]
+        df_g2 = df_prep[np.where(df[target].isin(second_group), True, False)]
+        df_g3 = df_prep[np.where(df[target].isin(third_group), True, False)]
+        return df_g1, df_g2, df_g3
 
 
 """ 
@@ -240,7 +257,7 @@ class ClassifTools:
             df_temp['GeoZone'] = df_temp['ELU'].apply(lambda x : int(str(x)[1:2]))
             df_new = df_new.join(pd.get_dummies(df_temp['GeoZone'], prefix='GeoZone'))
 
-        if self.add_family or self.rock or self.stony:
+        if self.add_family or self.add_rocky or self.add_stony:
             df_temp['ZoneDesc'] = df_temp['ELU'].apply(lambda x: desc_dict[x])
 
         if self.add_family:
@@ -281,6 +298,7 @@ class ClassifTools:
         X_train, X_test, y_train, y_test = self.split_trainset(target=target, split_test_size=0.2)
         X_train = self.enrich_data(df=X_train)
         X_test = self.enrich_data(df=X_test)
+        print([col for col in X_train.columns if col not in X_test.columns])
     
         # Fit and predict
         if unfitted_model==None:
@@ -290,13 +308,14 @@ class ClassifTools:
 
         model.fit(X_train, y_train)
         y_pred = self.model.predict(X_test)
+        #test_details = (X_test, y_test, y_pred)
 
         # Compute accuracy and confusion matrix
         accuracy = accuracy_score(y_test, y_pred)
-        matrix = pd.DataFrame(np.array(confusion_matrix(y_test, y_pred)), columns=['true'+str(i) for i in range(1, 8)], index=['pred'+str(i) for i in range(1, 8)])
+        matrix = pd.DataFrame(np.array(confusion_matrix(y_test, y_pred)), columns=['true'+str(i) for i in list(y_test.unique())], index=['pred'+str(i) for i in list(y_test.unique())])
         
         if compute_accuracy and compute_matrix:
-            return accuracy, matrix
+            return accuracy, matrix #, test_details
         elif matrix:
             return matrix
         else:
@@ -356,7 +375,7 @@ class ClassifTools:
         if compute_local_metrics:
             print('computing local metrics...')
             start = time.time()
-            accuracy, matrix = self.local_metrics(unfitted_model=unfitted_model, compute_accuracy=True, compute_matrix=True)
+            accuracy, matrix = self.local_metrics(unfitted_model=unfitted_model, compute_accuracy=True, compute_matrix=True, target=target)
             print('   -- took', round(time.time() - start, 2), 'sec')
             print('> SUCCESS')
             pred_time = round(time.time() - pred_start, 2)
