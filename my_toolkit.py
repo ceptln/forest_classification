@@ -18,6 +18,9 @@ from sklearn.metrics import confusion_matrix
 #################################################
 #           Explonatory Data Analysis           #
 #################################################
+
+These functions are only inteded to be used in the EDA part of the challenge
+
 """
 
 def plot_features_labelbreakdown(df, columns_of_interest=[]):
@@ -45,7 +48,7 @@ def plot_features_labelbreakdown(df, columns_of_interest=[]):
 def plot_features_hist(df, columns_of_interest=[]):
 
     """ 
-    Plot numerical features histograms
+    Plot histograms of numerical features (regardless of the class)
     """
 
     if columns_of_interest == []:
@@ -63,7 +66,8 @@ def plot_features_hist(df, columns_of_interest=[]):
 def pivot_binary_features(df, new_columns='Cover_Type', new_index='Wilder_Type', feature_key='Wilderness'):
     
     """ 
-    Pivot a given binary feature
+    Pivot a given OneHotEncoded category feature (by default 'Wilder_Type) in order to break it down by the target classes (by default: Cover_Type)
+    Render the count of each category by target class
     """
 
     piv_columns = [col for col in df.columns if feature_key in col]
@@ -79,7 +83,8 @@ def pivot_binary_features(df, new_columns='Cover_Type', new_index='Wilder_Type',
 def repartition_binary_features(df_train, df_test, feature_key='Wilderness'):
 
     """ 
-    Show repartition binary features between training and testing datasets
+    Show the repartition of a given OneHotEncoded category feature between the training and the testing datasets
+    Render the count and the ratio of each category by dataset (trainning/test)
     """
 
     feature_columns = [col for col in df_train.columns if feature_key in col]
@@ -93,7 +98,7 @@ def repartition_binary_features(df_train, df_test, feature_key='Wilderness'):
 
 def one_hot_encode(df, column_of_interest, new_columns_prefix):
     """ 
-    Perform OneHotEncoding on a given column (from 1 column to x)
+    Perform OneHotEncoding on a given categorical feature (from 1 column to x)
     """
     df_prep = df.copy()
     df_prep = df_prep.join(pd.get_dummies(df_prep[column_of_interest],  prefix=new_columns_prefix))
@@ -102,7 +107,7 @@ def one_hot_encode(df, column_of_interest, new_columns_prefix):
 
 def reverse_one_hot_encode(df, columns_of_interest, new_column_name):
     """ 
-    Perform a OneHotEncoding reverse (from x columns to a single one)
+    Perform a StandardScaling transformation on a OneHotEncoded categorical feature (from x columns to a single one)
     """
     df_prep = df.copy()
     df_prep['prep'] = (df_prep[columns_of_interest] == 1).idxmax(1)
@@ -116,7 +121,7 @@ def reverse_one_hot_encode(df, columns_of_interest, new_column_name):
 def outlier_function(df, col_name):
 
     ''' 
-    Detect potential outliers
+    Detect potential outliers with the IQR method (quartile +/- 3*IQR)
     '''
 
     first_quartile = np.percentile(np.array(df[col_name].tolist()), 25)
@@ -136,7 +141,8 @@ def outlier_function(df, col_name):
 def relabel(df, first_group, second_group, third_group=None, drop_cover_type=True):
     
     """ 
-    Create higher-level groups of cover types
+    Create higher-level groups of cover types by grouping similar classes
+    Aim at preparing sub-classification intra-groups
     """
     
     df_relabeled = df.copy()
@@ -153,6 +159,11 @@ def relabel(df, first_group, second_group, third_group=None, drop_cover_type=Tru
 
 def split_in_groups(df, first_group, second_group, third_group=None, target='Cover_Type'):
     
+    """ 
+    Split a dataframe in 2 or 3 sub-datasets based on given groups of target classes
+    Aim at preparing sub-classification intra-groups
+    """
+
     df_prep = df.copy()
     if third_group == None:
         df_g1 = df_prep[np.where(df[target].isin(first_group), True, False)]
@@ -169,6 +180,9 @@ def split_in_groups(df, first_group, second_group, third_group=None, target='Cov
 #################################################
 # Preprocessing and modelling class and methods #
 #################################################
+
+
+
 """
 
 class ClassifTools:
@@ -196,7 +210,7 @@ class ClassifTools:
     def split_trainset(self, target='Cover_Type', split_test_size=0):
 
         """
-        Expand row training dataset offering some testing capabilities
+        Expand row training dataset in X, y (or X_train, X_test, y_train, y_test)
         """
 
         df_train = self.df_train
@@ -221,7 +235,11 @@ class ClassifTools:
     def enrich_data(self, df):
 
         """ 
-        Add climate zone and/or geographical zone to a given df (df_train/df_test)
+        Enrich the initial dataset by
+        - extracting climate zone and/or geographical zone from the ELU code
+        - extracting properties from the ELU code text description
+        - performing some feature engineering on the numerical features (line transformations)
+        Used in test_predict
         """
         
         df_temp = df.copy()
@@ -287,7 +305,8 @@ class ClassifTools:
     def local_metrics(self, unfitted_model=None, test_size=0.2, compute_accuracy=True, compute_matrix=True, target='Cover_Type'):
 
         """
-        Computes accuracy and confusion matrix of predictions after a train_test_split on training dataset 
+        Computes accuracy and confusion matrix of predictions after a train_test_split on training dataset
+        Used in test_predict only
         """
         
 
@@ -324,7 +343,7 @@ class ClassifTools:
     def test_predict(self, export_file=True, compute_local_metrics=True, target='Cover_Type'):
 
         """ 
-        Fits the model, predicts the output and optionally export the results/computes metrics
+        Fits the model, predicts the output and optionally export the results/computes local metrics
         """
         pred_start = time.time()
         # Store unfitted model for local metrics computation
@@ -386,10 +405,19 @@ class ClassifTools:
 
 
 """ 
-Output formatting functions
+#################################################
+#          Output formatting functions          #
+#################################################
+
+These functions are only used for printing the results in a nice fashion and optionally store them in external files
 """
 
 def get_class_vars(cl):
+
+    """ 
+    Only used in print_results() and export_metrics()
+    """
+
     var_class = vars(cl)
     var_cl = var_class.copy()
     del var_cl['df_train']
@@ -397,6 +425,11 @@ def get_class_vars(cl):
     return var_cl
 
 def print_results(acc, mat, pred_time, cl):
+
+    """ 
+    Print the results in a nice fashion
+    """
+
     print('-------------------------')
     print('- Parameters: ', get_class_vars(cl))
     print('- Execution time:', pred_time)
@@ -405,6 +438,11 @@ def print_results(acc, mat, pred_time, cl):
     return mat
 
 def export_metrics(acc, mat, pred_time, cl):
+
+    """ 
+    Export the metrics in external files to keep track of past results
+    """
+
     now = datetime.now()
     dt = now.strftime("%d/%m/%Y %H:%M:%S")
     export_list = ['---', dt, str(get_class_vars(cl)), str(pred_time), str(acc), [np.array(mat)]]
@@ -426,8 +464,12 @@ def export_metrics(acc, mat, pred_time, cl):
     
 
 """ 
-Dictionaries of interest used in the above class methods
-"""
+#################################################
+#                 Dictionaries                  #
+#################################################
+
+Dictionaries of interest used in the above class methods - in enrich_data() only
+""" 
 
 elu_dict = {
     'Soil_Type1': 2702,
