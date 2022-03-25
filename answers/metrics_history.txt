@@ -482,3 +482,634 @@
        [ 64, 325,  35,   4],
        [  0,   7, 405,   0],
        [  6,   0,   1, 433]])]"
+---
+22/03/2022 17:07:48
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+81.09
+0.8991402116402116
+"[array([[363,  55,   0,   0,   5,   0,  20],
+       [ 59, 313,  11,   0,  23,   8,   3],
+       [  0,   1, 364,  13,   3,  30,   0],
+       [  0,   0,   4, 429,   0,   3,   0],
+       [  0,  14,   2,   0, 395,   2,   0],
+       [  0,   1,  28,  12,   3, 414,   0],
+       [  5,   0,   0,   0,   0,   0, 441]])]"
+---
+22/03/2022 17:10:05
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+58.6
+0.8991402116402116
+"[array([[363,  55,   0,   0,   5,   0,  20],
+       [ 59, 313,  11,   0,  23,   8,   3],
+       [  0,   1, 364,  13,   3,  30,   0],
+       [  0,   0,   4, 429,   0,   3,   0],
+       [  0,  14,   2,   0, 395,   2,   0],
+       [  0,   1,  28,  12,   3, 414,   0],
+       [  5,   0,   0,   0,   0,   0, 441]])]"
+---
+22/03/2022 17:11:50
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+81.08
+0.8991402116402116
+"[array([[363,  55,   0,   0,   5,   0,  20],
+       [ 59, 313,  11,   0,  23,   8,   3],
+       [  0,   1, 364,  13,   3,  30,   0],
+       [  0,   0,   4, 429,   0,   3,   0],
+       [  0,  14,   2,   0, 395,   2,   0],
+       [  0,   1,  28,  12,   3, 414,   0],
+       [  5,   0,   0,   0,   0,   0, 441]])]"
+---
+22/03/2022 17:14:18
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+79.39
+0.8991402116402116
+"[array([[363,  55,   0,   0,   5,   0,  20],
+       [ 59, 313,  11,   0,  23,   8,   3],
+       [  0,   1, 364,  13,   3,  30,   0],
+       [  0,   0,   4, 429,   0,   3,   0],
+       [  0,  14,   2,   0, 395,   2,   0],
+       [  0,   1,  28,  12,   3, 414,   0],
+       [  5,   0,   0,   0,   0,   0, 441]])]"
+---
+22/03/2022 17:18:18
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+79.15
+0.888558201058201
+"[array([[340,  74,   0,   0,   4,   0,  25],
+       [ 54, 313,  13,   0,  28,   6,   3],
+       [  0,   3, 363,  11,   5,  29,   0],
+       [  0,   0,   6, 428,   0,   2,   0],
+       [  0,  13,   3,   0, 395,   2,   0],
+       [  0,   3,  27,  14,   3, 411,   0],
+       [  9,   0,   0,   0,   0,   0, 437]])]"
+---
+22/03/2022 17:31:32
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'random_state': 2}"
+76.41
+0.888558201058201
+"[array([[340,  74,   0,   0,   4,   0,  25],
+       [ 54, 313,  13,   0,  28,   6,   3],
+       [  0,   3, 363,  11,   5,  29,   0],
+       [  0,   0,   6, 428,   0,   2,   0],
+       [  0,  13,   3,   0, 395,   2,   0],
+       [  0,   3,  27,  14,   3, 411,   0],
+       [  9,   0,   0,   0,   0,   0, 437]])]"
+"MCA(n_components=10, n_iter=3, random_state=42)"
+---
+22/03/2022 17:58:12
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'decomposition': MCA(n_components=10, n_iter=3, random_state=42), 'columns_to_decomp': ['Wilderness_Area1', 'Wilderness_Area2', 'Wilderness_Area3', 'Wilderness_Area4', 'ClimZone_2', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'ClimZone_7', 'ClimZone_8', 'GeoZone_1', 'GeoZone_2', 'GeoZone_7', 'F_Cathedral', 'F_Ratake', 'F_Vanet', 'F_Legault', 'F_Catamount', 'F_Bullwark', 'F_Gateview', 'F_Leighcan', 'F_Como', 'F_Moran', 'R_Rock_outcrop', 'R_Ratake_families', 'R_Rock_land', 'R_till_substratum', 'R_Cryumbrepts', 'R_Cryorthents', 'Rock', 'S_rubbly', 'S_stony', 'S_very stony', 'S_extremely stony'], 'random_state': 2}"
+81.41
+0.888558201058201
+"[array([[340,  74,   0,   0,   4,   0,  25],
+       [ 54, 313,  13,   0,  28,   6,   3],
+       [  0,   3, 363,  11,   5,  29,   0],
+       [  0,   0,   6, 428,   0,   2,   0],
+       [  0,  13,   3,   0, 395,   2,   0],
+       [  0,   3,  27,  14,   3, 411,   0],
+       [  9,   0,   0,   0,   0,   0, 437]])]"
+---
+22/03/2022 18:26:13
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'decomposition': MCA(n_components=5, n_iter=3, random_state=42), 'columns_to_decomp': ['Wilderness_Area1', 'Wilderness_Area2', 'Wilderness_Area3', 'Wilderness_Area4', 'ClimZone_2', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'ClimZone_7', 'ClimZone_8', 'GeoZone_1', 'GeoZone_2', 'GeoZone_7', 'F_Cathedral', 'F_Ratake', 'F_Vanet', 'F_Legault', 'F_Catamount', 'F_Bullwark', 'F_Gateview', 'F_Leighcan', 'F_Como', 'F_Moran', 'R_Rock_outcrop', 'R_Ratake_families', 'R_Rock_land', 'R_till_substratum', 'R_Cryumbrepts', 'R_Cryorthents', 'Rock', 'S_rubbly', 'S_stony', 'S_very stony', 'S_extremely stony'], 'random_state': 2}"
+78.21
+0.8931878306878307
+"[array([[365,  48,   0,   0,   4,   0,  26],
+       [ 62, 314,  13,   0,  19,   5,   4],
+       [  0,   2, 355,  13,   3,  38,   0],
+       [  0,   0,   4, 429,   0,   3,   0],
+       [  1,  14,   4,   0, 391,   3,   0],
+       [  0,   1,  34,  13,   1, 409,   0],
+       [  8,   0,   0,   0,   0,   0, 438]])]"
+---
+22/03/2022 18:32:50
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=5, n_iter=3, random_state=42), 'columns_to_decomp': ['Wilderness_Area1', 'Wilderness_Area2', 'Wilderness_Area3', 'Wilderness_Area4', 'ClimZone_2', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'ClimZone_7', 'ClimZone_8', 'GeoZone_1', 'GeoZone_2', 'GeoZone_7', 'F_Cathedral', 'F_Ratake', 'F_Vanet', 'F_Legault', 'F_Catamount', 'F_Bullwark', 'F_Gateview', 'F_Leighcan', 'F_Como', 'F_Moran', 'R_Rock_outcrop', 'R_Ratake_families', 'R_Rock_land', 'R_till_substratum', 'R_Cryumbrepts', 'R_Cryorthents', 'Rock', 'S_rubbly', 'S_stony', 'S_very stony', 'S_extremely stony'], 'random_state': 2}"
+75.94
+0.8951719576719577
+"[array([[364,  55,   0,   0,   3,   0,  21],
+       [ 64, 314,  13,   0,  17,   7,   2],
+       [  0,   2, 358,  13,   1,  37,   0],
+       [  0,   0,   3, 428,   0,   5,   0],
+       [  1,  14,   2,   0, 392,   4,   0],
+       [  0,   1,  32,  11,   1, 413,   0],
+       [  8,   0,   0,   0,   0,   0, 438]])]"
+---
+22/03/2022 18:34:06
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=5, n_iter=3, random_state=42), 'columns_to_decomp': ['S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+76.6
+0.8773148148148148
+"[array([[352,  62,   0,   0,   6,   1,  22],
+       [ 71, 289,  11,   0,  32,   8,   6],
+       [  0,   1, 352,  13,  10,  35,   0],
+       [  0,   0,   5, 425,   0,   6,   0],
+       [  4,  11,   3,   0, 393,   2,   0],
+       [  0,   1,  35,  15,   2, 405,   0],
+       [  8,   1,   0,   0,   0,   0, 437]])]"
+---
+22/03/2022 18:35:25
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=5, n_iter=3, random_state=42), 'columns_to_decomp': ['Id', 'S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+78.4
+0.781415343915344
+"[array([[275, 128,   0,   0,  10,   1,  29],
+       [ 65, 286,  14,   0,  32,  12,   8],
+       [  0,   2, 327,  35,   5,  42,   0],
+       [  0,   0,   8, 417,   0,  11,   0],
+       [  0,  43,   5,   0, 359,   6,   0],
+       [  0,   4, 130,  25,   6, 293,   0],
+       [ 40,   0,   0,   0,   0,   0, 406]])]"
+---
+22/03/2022 18:36:37
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=8, n_iter=3, random_state=42), 'columns_to_decomp': ['Wilderness_Area1', 'Wilderness_Area2', 'Wilderness_Area3', 'Wilderness_Area4', 'ClimZone_2', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'ClimZone_7', 'ClimZone_8', 'GeoZone_1', 'GeoZone_2', 'GeoZone_7', 'F_Cathedral', 'F_Ratake', 'F_Vanet', 'F_Legault', 'F_Catamount', 'F_Bullwark', 'F_Gateview', 'F_Leighcan', 'F_Como', 'F_Moran', 'R_Rock_outcrop', 'R_Ratake_families', 'R_Rock_land', 'R_till_substratum', 'R_Cryumbrepts', 'R_Cryorthents', 'Rock', 'S_rubbly', 'S_stony', 'S_very stony', 'S_extremely stony'], 'random_state': 2}"
+72.01
+0.8888888888888888
+"[array([[328,  83,   0,   0,   4,   0,  28],
+       [ 51, 320,  12,   0,  24,   7,   3],
+       [  0,   3, 368,  12,   3,  25,   0],
+       [  0,   0,   4, 429,   0,   3,   0],
+       [  0,  13,   3,   0, 393,   4,   0],
+       [  0,   1,  30,  14,   2, 411,   0],
+       [  7,   0,   0,   0,   0,   0, 439]])]"
+---
+22/03/2022 18:37:56
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=8, n_iter=3, random_state=42), 'columns_to_decomp': ['S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+79.58
+0.8845899470899471
+"[array([[355,  60,   0,   0,   5,   1,  22],
+       [ 68, 305,  12,   0,  21,   8,   3],
+       [  0,   5, 353,  15,   4,  34,   0],
+       [  0,   0,   5, 429,   0,   2,   0],
+       [  1,  16,   3,   0, 388,   5,   0],
+       [  0,   0,  38,  11,   1, 408,   0],
+       [  9,   0,   0,   0,   0,   0, 437]])]"
+---
+22/03/2022 18:39:14
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=8, n_iter=3, random_state=42), 'columns_to_decomp': ['Id', 'S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+77.77
+0.8005952380952381
+"[array([[300, 100,   0,   0,   9,   1,  33],
+       [ 78, 276,   9,   0,  28,  17,   9],
+       [  0,   2, 319,  34,   5,  51,   0],
+       [  0,   0,   7, 419,   0,  10,   0],
+       [  3,  35,   4,   0, 365,   6,   0],
+       [  0,   3,  91,  22,   4, 338,   0],
+       [ 41,   1,   0,   0,   0,   0, 404]])]"
+---
+22/03/2022 18:40:27
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=12, n_iter=3, random_state=42), 'columns_to_decomp': ['Wilderness_Area1', 'Wilderness_Area2', 'Wilderness_Area3', 'Wilderness_Area4', 'ClimZone_2', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'ClimZone_7', 'ClimZone_8', 'GeoZone_1', 'GeoZone_2', 'GeoZone_7', 'F_Cathedral', 'F_Ratake', 'F_Vanet', 'F_Legault', 'F_Catamount', 'F_Bullwark', 'F_Gateview', 'F_Leighcan', 'F_Como', 'F_Moran', 'R_Rock_outcrop', 'R_Ratake_families', 'R_Rock_land', 'R_till_substratum', 'R_Cryumbrepts', 'R_Cryorthents', 'Rock', 'S_rubbly', 'S_stony', 'S_very stony', 'S_extremely stony'], 'random_state': 2}"
+72.82
+0.8898809523809523
+"[array([[340,  72,   0,   0,   4,   0,  27],
+       [ 55, 314,  12,   0,  28,   6,   2],
+       [  0,   3, 371,  11,   3,  23,   0],
+       [  0,   0,   5, 427,   0,   4,   0],
+       [  0,  13,   5,   0, 393,   2,   0],
+       [  0,   2,  33,  13,   2, 408,   0],
+       [  8,   0,   0,   0,   0,   0, 438]])]"
+---
+22/03/2022 18:41:44
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=12, n_iter=3, random_state=42), 'columns_to_decomp': ['S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+77.36
+0.8783068783068783
+"[array([[345,  56,   0,   0,   5,   1,  36],
+       [ 71, 301,  13,   0,  22,   8,   2],
+       [  0,   3, 364,  13,   4,  27,   0],
+       [  0,   0,   6, 428,   0,   2,   0],
+       [  2,  20,   3,   0, 385,   3,   0],
+       [  0,   2,  43,  12,   3, 398,   0],
+       [ 11,   0,   0,   0,   0,   0, 435]])]"
+---
+22/03/2022 18:45:12
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=12, n_iter=3, random_state=42), 'columns_to_decomp': ['Id', 'S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+207.93
+0.7228835978835979
+"[array([[263, 138,   0,   0,  13,   1,  28],
+       [ 64, 284,  14,   0,  36,  14,   5],
+       [  0,   2, 312,  45,   4,  48,   0],
+       [  0,   0,  13, 414,   0,   9,   0],
+       [  3,  39,   6,   0, 362,   3,   0],
+       [  0,   4, 149,  28,   9, 268,   0],
+       [158,   5,   0,   0,   0,   0, 283]])]"
+---
+22/03/2022 18:46:32
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=15, n_iter=3, random_state=42), 'columns_to_decomp': ['Wilderness_Area1', 'Wilderness_Area2', 'Wilderness_Area3', 'Wilderness_Area4', 'ClimZone_2', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'ClimZone_7', 'ClimZone_8', 'GeoZone_1', 'GeoZone_2', 'GeoZone_7', 'F_Cathedral', 'F_Ratake', 'F_Vanet', 'F_Legault', 'F_Catamount', 'F_Bullwark', 'F_Gateview', 'F_Leighcan', 'F_Como', 'F_Moran', 'R_Rock_outcrop', 'R_Ratake_families', 'R_Rock_land', 'R_till_substratum', 'R_Cryumbrepts', 'R_Cryorthents', 'Rock', 'S_rubbly', 'S_stony', 'S_very stony', 'S_extremely stony'], 'random_state': 2}"
+79.87
+0.8839285714285714
+"[array([[344,  69,   0,   0,   3,   0,  27],
+       [ 53, 316,  14,   0,  24,   6,   4],
+       [  0,   4, 353,  12,   2,  40,   0],
+       [  0,   0,   6, 425,   0,   5,   0],
+       [  0,  16,   3,   0, 392,   2,   0],
+       [  0,   3,  34,  11,   2, 408,   0],
+       [ 10,   1,   0,   0,   0,   0, 435]])]"
+---
+22/03/2022 18:47:53
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=15, n_iter=3, random_state=42), 'columns_to_decomp': ['S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+81.0
+0.8482142857142857
+"[array([[346,  47,   0,   0,   6,   1,  43],
+       [130, 241,   9,   0,  24,  11,   2],
+       [  0,   2, 353,  15,   6,  35,   0],
+       [  0,   0,   4, 429,   0,   3,   0],
+       [ 14,  25,   4,   0, 363,   7,   0],
+       [  0,   1,  45,  12,   1, 399,   0],
+       [ 12,   0,   0,   0,   0,   0, 434]])]"
+---
+22/03/2022 18:49:19
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=15, n_iter=3, random_state=42), 'columns_to_decomp': ['Id', 'S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+85.58
+0.6650132275132276
+"[array([[309, 120,   0,   0,   4,   0,  10],
+       [ 87, 282,  13,   0,  17,  13,   5],
+       [  0,   5, 309,  38,   1,  58,   0],
+       [  0,   0,  16, 410,   0,  10,   0],
+       [  4, 169,   7,   0, 224,   9,   0],
+       [  0,  11, 114,  25,   6, 302,   0],
+       [262,   9,   0,   0,   0,   0, 175]])]"
+---
+22/03/2022 18:50:45
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=20, n_iter=3, random_state=42), 'columns_to_decomp': ['Wilderness_Area1', 'Wilderness_Area2', 'Wilderness_Area3', 'Wilderness_Area4', 'ClimZone_2', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'ClimZone_7', 'ClimZone_8', 'GeoZone_1', 'GeoZone_2', 'GeoZone_7', 'F_Cathedral', 'F_Ratake', 'F_Vanet', 'F_Legault', 'F_Catamount', 'F_Bullwark', 'F_Gateview', 'F_Leighcan', 'F_Como', 'F_Moran', 'R_Rock_outcrop', 'R_Ratake_families', 'R_Rock_land', 'R_till_substratum', 'R_Cryumbrepts', 'R_Cryorthents', 'Rock', 'S_rubbly', 'S_stony', 'S_very stony', 'S_extremely stony'], 'random_state': 2}"
+85.68
+0.8796296296296297
+"[array([[333,  80,   0,   0,   4,   0,  26],
+       [ 60, 315,  11,   0,  20,   8,   3],
+       [  0,   5, 349,  14,   1,  42,   0],
+       [  0,   0,   4, 428,   0,   4,   0],
+       [  0,  15,   3,   0, 391,   4,   0],
+       [  0,   2,  32,  14,   4, 406,   0],
+       [  8,   0,   0,   0,   0,   0, 438]])]"
+---
+22/03/2022 18:52:12
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=20, n_iter=3, random_state=42), 'columns_to_decomp': ['S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+87.09
+0.8287037037037037
+"[array([[351,  47,   0,   0,   5,   1,  39],
+       [119, 243,  11,   0,  30,  11,   3],
+       [  0,   2, 340,  15,   5,  49,   0],
+       [  0,   0,   7, 428,   0,   1,   0],
+       [  5,  44,   5,   0, 355,   4,   0],
+       [  2,   3,  76,  16,   3, 358,   0],
+       [ 15,   0,   0,   0,   0,   0, 431]])]"
+---
+22/03/2022 18:53:40
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=20, n_iter=3, random_state=42), 'columns_to_decomp': ['Id', 'S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+88.22
+0.7000661375661376
+"[array([[297, 115,   0,   0,   6,   0,  25],
+       [104, 269,  10,   0,  17,  13,   4],
+       [  1,  10, 288,  34,   5,  73,   0],
+       [  0,   0,  14, 414,   0,   8,   0],
+       [ 12, 148,   5,   0, 240,   8,   0],
+       [  2,  15,  79,  26,   7, 329,   0],
+       [160,   6,   0,   0,   0,   0, 280]])]"
+---
+22/03/2022 18:55:04
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=25, n_iter=3, random_state=42), 'columns_to_decomp': ['Wilderness_Area1', 'Wilderness_Area2', 'Wilderness_Area3', 'Wilderness_Area4', 'ClimZone_2', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'ClimZone_7', 'ClimZone_8', 'GeoZone_1', 'GeoZone_2', 'GeoZone_7', 'F_Cathedral', 'F_Ratake', 'F_Vanet', 'F_Legault', 'F_Catamount', 'F_Bullwark', 'F_Gateview', 'F_Leighcan', 'F_Como', 'F_Moran', 'R_Rock_outcrop', 'R_Ratake_families', 'R_Rock_land', 'R_till_substratum', 'R_Cryumbrepts', 'R_Cryorthents', 'Rock', 'S_rubbly', 'S_stony', 'S_very stony', 'S_extremely stony'], 'random_state': 2}"
+84.08
+0.8812830687830688
+"[array([[333,  78,   0,   0,   4,   0,  28],
+       [ 52, 321,  11,   0,  22,   8,   3],
+       [  0,   5, 343,  12,   2,  49,   0],
+       [  0,   0,   6, 427,   0,   3,   0],
+       [  0,  16,   3,   0, 390,   4,   0],
+       [  0,   0,  26,  11,   3, 418,   0],
+       [  8,   5,   0,   0,   0,   0, 433]])]"
+---
+22/03/2022 18:56:28
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=25, n_iter=3, random_state=42), 'columns_to_decomp': ['S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+84.11
+0.8445767195767195
+"[array([[344,  64,   0,   0,   2,   0,  33],
+       [ 90, 288,  13,   0,  14,   7,   5],
+       [  0,   4, 348,  15,   2,  42,   0],
+       [  0,   0,   7, 423,   0,   6,   0],
+       [  2,  51,   7,   0, 350,   3,   0],
+       [  0,   6,  72,  11,   2, 367,   0],
+       [ 10,   2,   0,   0,   0,   0, 434]])]"
+---
+22/03/2022 18:57:58
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=25, n_iter=3, random_state=42), 'columns_to_decomp': ['Id', 'S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+89.82
+0.689484126984127
+"[array([[300,  98,   0,   0,   5,   1,  39],
+       [121, 247,  11,   0,  19,  16,   3],
+       [  1,  14, 272,  38,   3,  83,   0],
+       [  0,   0,  16, 407,   0,  13,   0],
+       [ 20, 129,   9,   0, 246,   9,   0],
+       [  1,  14, 105,  20,   6, 312,   0],
+       [133,  12,   0,   0,   0,   0, 301]])]"
+---
+22/03/2022 18:59:30
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': PCA(n_components=5, random_state=42), 'columns_to_decomp': ['Wilderness_Area1', 'Wilderness_Area2', 'Wilderness_Area3', 'Wilderness_Area4', 'ClimZone_2', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'ClimZone_7', 'ClimZone_8', 'GeoZone_1', 'GeoZone_2', 'GeoZone_7', 'F_Cathedral', 'F_Ratake', 'F_Vanet', 'F_Legault', 'F_Catamount', 'F_Bullwark', 'F_Gateview', 'F_Leighcan', 'F_Como', 'F_Moran', 'R_Rock_outcrop', 'R_Ratake_families', 'R_Rock_land', 'R_till_substratum', 'R_Cryumbrepts', 'R_Cryorthents', 'Rock', 'S_rubbly', 'S_stony', 'S_very stony', 'S_extremely stony'], 'random_state': 2}"
+65.69
+0.7566137566137566
+"[array([[201, 185,   0,   0,   5,   1,  51],
+       [ 24, 354,   3,   0,  24,   8,   4],
+       [  0,  50,  58,  33,  20, 250,   0],
+       [  0,   0,   0, 428,   0,   8,   0],
+       [  0,  24,   1,   0, 386,   2,   0],
+       [  0,  15,   3,  16,   3, 421,   0],
+       [  2,   4,   0,   0,   0,   0, 440]])]"
+---
+22/03/2022 19:00:32
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': PCA(n_components=5, random_state=42), 'columns_to_decomp': ['S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+61.54
+0.876984126984127
+"[array([[340,  67,   0,   0,   5,   1,  30],
+       [ 62, 311,  12,   0,  19,   9,   4],
+       [  0,   5, 356,  13,   6,  31,   0],
+       [  0,   0,   8, 424,   0,   4,   0],
+       [  0,  26,   2,   0, 384,   1,   0],
+       [  0,   2,  36,  14,   3, 403,   0],
+       [ 12,   0,   0,   0,   0,   0, 434]])]"
+---
+22/03/2022 19:01:33
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': PCA(n_components=5, random_state=42), 'columns_to_decomp': ['Id', 'S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+61.45
+0.8432539682539683
+"[array([[316,  83,   0,   0,   6,   1,  37],
+       [ 76, 284,  12,   0,  24,  16,   5],
+       [  0,   1, 344,  10,   3,  53,   0],
+       [  0,   0,   9, 423,   0,   4,   0],
+       [  2,  27,   3,   0, 378,   3,   0],
+       [  0,   4,  57,  13,   3, 381,   0],
+       [ 22,   0,   0,   0,   0,   0, 424]])]"
+---
+22/03/2022 19:02:34
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': PCA(n_components=8, random_state=42), 'columns_to_decomp': ['Wilderness_Area1', 'Wilderness_Area2', 'Wilderness_Area3', 'Wilderness_Area4', 'ClimZone_2', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'ClimZone_7', 'ClimZone_8', 'GeoZone_1', 'GeoZone_2', 'GeoZone_7', 'F_Cathedral', 'F_Ratake', 'F_Vanet', 'F_Legault', 'F_Catamount', 'F_Bullwark', 'F_Gateview', 'F_Leighcan', 'F_Como', 'F_Moran', 'R_Rock_outcrop', 'R_Ratake_families', 'R_Rock_land', 'R_till_substratum', 'R_Cryumbrepts', 'R_Cryorthents', 'Rock', 'S_rubbly', 'S_stony', 'S_very stony', 'S_extremely stony'], 'random_state': 2}"
+60.78
+0.7691798941798942
+"[array([[240, 163,   0,   0,   6,   1,  33],
+       [ 18, 359,   3,   0,  22,   9,   6],
+       [  0,  54,  54,  35,  16, 252,   0],
+       [  0,   0,   0, 422,   0,  14,   0],
+       [  0,  16,   1,   0, 393,   3,   0],
+       [  0,  16,   3,  18,   4, 417,   0],
+       [  3,   2,   0,   0,   0,   0, 441]])]"
+---
+22/03/2022 19:03:35
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': PCA(n_components=8, random_state=42), 'columns_to_decomp': ['S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+60.9
+0.8779761904761905
+"[array([[344,  63,   0,   0,   5,   1,  30],
+       [ 55, 315,  13,   0,  21,   7,   6],
+       [  0,   3, 364,  11,   3,  30,   0],
+       [  0,   0,   8, 425,   0,   3,   0],
+       [  0,  25,   3,   0, 383,   2,   0],
+       [  0,   1,  47,  14,   2, 394,   0],
+       [ 14,   1,   0,   0,   1,   0, 430]])]"
+---
+22/03/2022 19:04:38
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': PCA(n_components=8, random_state=42), 'columns_to_decomp': ['Id', 'S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+62.96
+0.8445767195767195
+"[array([[313,  86,   0,   0,   7,   1,  36],
+       [ 74, 287,  10,   0,  27,  14,   5],
+       [  0,   4, 327,  17,   4,  59,   0],
+       [  0,   0,  12, 419,   0,   5,   0],
+       [  0,  27,   3,   0, 380,   3,   0],
+       [  1,   5,  41,  10,   2, 399,   0],
+       [ 17,   0,   0,   0,   0,   0, 429]])]"
+---
+22/03/2022 19:05:39
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': PCA(n_components=12, random_state=42), 'columns_to_decomp': ['Wilderness_Area1', 'Wilderness_Area2', 'Wilderness_Area3', 'Wilderness_Area4', 'ClimZone_2', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'ClimZone_7', 'ClimZone_8', 'GeoZone_1', 'GeoZone_2', 'GeoZone_7', 'F_Cathedral', 'F_Ratake', 'F_Vanet', 'F_Legault', 'F_Catamount', 'F_Bullwark', 'F_Gateview', 'F_Leighcan', 'F_Como', 'F_Moran', 'R_Rock_outcrop', 'R_Ratake_families', 'R_Rock_land', 'R_till_substratum', 'R_Cryumbrepts', 'R_Cryorthents', 'Rock', 'S_rubbly', 'S_stony', 'S_very stony', 'S_extremely stony'], 'random_state': 2}"
+60.58
+0.7966269841269841
+"[array([[328,  90,   0,   0,   3,   0,  22],
+       [ 36, 350,   5,   0,  14,  10,   2],
+       [  0,  64,  56,  36,  14, 241,   0],
+       [  0,   0,   0, 426,   0,  10,   0],
+       [  0,  21,   1,   0, 388,   3,   0],
+       [  0,  15,   2,  15,   4, 422,   0],
+       [  6,   1,   0,   0,   0,   0, 439]])]"
+---
+22/03/2022 19:06:43
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': PCA(n_components=12, random_state=42), 'columns_to_decomp': ['S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+64.14
+0.8601190476190477
+"[array([[344,  64,   0,   0,   5,   1,  29],
+       [ 65, 318,  10,   0,  12,   9,   3],
+       [  0,   6, 348,  15,   3,  39,   0],
+       [  0,   0,   9, 423,   0,   4,   0],
+       [  0,  51,   6,   0, 349,   7,   0],
+       [  0,   1,  49,  18,   2, 388,   0],
+       [ 15,   0,   0,   0,   0,   0, 431]])]"
+---
+22/03/2022 19:07:49
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': PCA(n_components=12, random_state=42), 'columns_to_decomp': ['Id', 'S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+65.89
+0.8065476190476191
+"[array([[320,  86,   0,   0,   4,   1,  32],
+       [ 82, 271,   7,   0,  31,  18,   8],
+       [  0,   2, 285,  14,  14,  96,   0],
+       [  0,   0,  24, 405,   0,   7,   0],
+       [  0,  34,   2,   0, 372,   5,   0],
+       [  1,   4,  73,  10,   5, 365,   0],
+       [ 23,   2,   0,   0,   0,   0, 421]])]"
+---
+22/03/2022 19:08:55
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': PCA(n_components=15, random_state=42), 'columns_to_decomp': ['Wilderness_Area1', 'Wilderness_Area2', 'Wilderness_Area3', 'Wilderness_Area4', 'ClimZone_2', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'ClimZone_7', 'ClimZone_8', 'GeoZone_1', 'GeoZone_2', 'GeoZone_7', 'F_Cathedral', 'F_Ratake', 'F_Vanet', 'F_Legault', 'F_Catamount', 'F_Bullwark', 'F_Gateview', 'F_Leighcan', 'F_Como', 'F_Moran', 'R_Rock_outcrop', 'R_Ratake_families', 'R_Rock_land', 'R_till_substratum', 'R_Cryumbrepts', 'R_Cryorthents', 'Rock', 'S_rubbly', 'S_stony', 'S_very stony', 'S_extremely stony'], 'random_state': 2}"
+66.12
+0.781415343915344
+"[array([[280, 114,   0,   0,   4,   1,  44],
+       [ 33, 348,   4,   0,  20,   9,   3],
+       [  0,  61,  60,  33,  13, 244,   0],
+       [  0,   0,   1, 423,   0,  12,   0],
+       [  0,  19,   1,   0, 389,   4,   0],
+       [  0,  16,   2,  15,   3, 422,   0],
+       [  4,   1,   0,   0,   0,   0, 441]])]"
+---
+22/03/2022 19:09:59
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': PCA(n_components=15, random_state=42), 'columns_to_decomp': ['S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+64.56
+0.8558201058201058
+"[array([[340,  65,   0,   0,   5,   1,  32],
+       [ 60, 313,  12,   0,  18,  11,   3],
+       [  0,   4, 351,  12,   2,  42,   0],
+       [  0,   0,  10, 423,   0,   3,   0],
+       [  2,  42,   8,   0, 355,   6,   0],
+       [  0,   2,  61,  17,   2, 376,   0],
+       [ 16,   0,   0,   0,   0,   0, 430]])]"
+---
+22/03/2022 19:11:04
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': PCA(n_components=15, random_state=42), 'columns_to_decomp': ['Id', 'S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+64.86
+0.792989417989418
+"[array([[308,  99,   0,   0,   4,   0,  32],
+       [ 81, 276,   7,   0,  32,  17,   4],
+       [  0,   3, 305,  14,   3,  86,   0],
+       [  0,   0,  46, 384,   0,   6,   0],
+       [  5,  42,   5,   0, 356,   5,   0],
+       [  1,   3,  82,  13,   6, 353,   0],
+       [ 27,   3,   0,   0,   0,   0, 416]])]"
+---
+22/03/2022 19:12:10
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': PCA(n_components=20, random_state=42), 'columns_to_decomp': ['Wilderness_Area1', 'Wilderness_Area2', 'Wilderness_Area3', 'Wilderness_Area4', 'ClimZone_2', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'ClimZone_7', 'ClimZone_8', 'GeoZone_1', 'GeoZone_2', 'GeoZone_7', 'F_Cathedral', 'F_Ratake', 'F_Vanet', 'F_Legault', 'F_Catamount', 'F_Bullwark', 'F_Gateview', 'F_Leighcan', 'F_Como', 'F_Moran', 'R_Rock_outcrop', 'R_Ratake_families', 'R_Rock_land', 'R_till_substratum', 'R_Cryumbrepts', 'R_Cryorthents', 'Rock', 'S_rubbly', 'S_stony', 'S_very stony', 'S_extremely stony'], 'random_state': 2}"
+65.17
+0.7784391534391535
+"[array([[284, 118,   0,   0,   2,   0,  39],
+       [ 31, 348,   4,   0,  23,   8,   3],
+       [  0,  58,  53,  33,  12, 255,   0],
+       [  0,   0,   0, 424,   0,  12,   0],
+       [  0,  21,   1,   0, 388,   3,   0],
+       [  0,  15,   3,  16,   6, 418,   0],
+       [  6,   1,   0,   0,   0,   0, 439]])]"
+---
+22/03/2022 19:13:18
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': PCA(n_components=20, random_state=42), 'columns_to_decomp': ['S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+68.11
+0.8478835978835979
+"[array([[340,  65,   0,   0,   5,   0,  33],
+       [ 70, 303,  13,   0,  18,   9,   4],
+       [  0,   3, 352,  14,   1,  41,   0],
+       [  0,   0,   9, 424,   0,   3,   0],
+       [  1,  58,  11,   0, 338,   5,   0],
+       [  0,   1,  57,  17,   2, 381,   0],
+       [ 17,   3,   0,   0,   0,   0, 426]])]"
+---
+22/03/2022 19:14:24
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': PCA(n_components=20, random_state=42), 'columns_to_decomp': ['Id', 'S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+66.6
+0.7893518518518519
+"[array([[308,  92,   0,   0,   6,   1,  36],
+       [ 95, 264,  10,   0,  29,  15,   4],
+       [  0,   4, 315,  17,   4,  71,   0],
+       [  0,   0,  46, 378,   0,  12,   0],
+       [  2,  37,   6,   0, 363,   5,   0],
+       [  0,   3, 105,  11,   5, 334,   0],
+       [ 16,   5,   0,   0,   0,   0, 425]])]"
+---
+22/03/2022 19:15:29
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': PCA(n_components=25, random_state=42), 'columns_to_decomp': ['Wilderness_Area1', 'Wilderness_Area2', 'Wilderness_Area3', 'Wilderness_Area4', 'ClimZone_2', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'ClimZone_7', 'ClimZone_8', 'GeoZone_1', 'GeoZone_2', 'GeoZone_7', 'F_Cathedral', 'F_Ratake', 'F_Vanet', 'F_Legault', 'F_Catamount', 'F_Bullwark', 'F_Gateview', 'F_Leighcan', 'F_Como', 'F_Moran', 'R_Rock_outcrop', 'R_Ratake_families', 'R_Rock_land', 'R_till_substratum', 'R_Cryumbrepts', 'R_Cryorthents', 'Rock', 'S_rubbly', 'S_stony', 'S_very stony', 'S_extremely stony'], 'random_state': 2}"
+64.53
+0.7751322751322751
+"[array([[277, 115,   0,   0,   4,   0,  47],
+       [ 33, 349,   6,   0,  16,  10,   3],
+       [  0,  69,  55,  31,   7, 249,   0],
+       [  0,   0,   0, 420,   0,  16,   0],
+       [  0,  21,   1,   0, 387,   4,   0],
+       [  0,  16,   2,  17,   1, 422,   0],
+       [ 11,   1,   0,   0,   0,   0, 434]])]"
+---
+22/03/2022 19:16:34
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': PCA(n_components=25, random_state=42), 'columns_to_decomp': ['S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+64.68
+0.843915343915344
+"[array([[318,  72,   0,   0,   5,   0,  48],
+       [ 79, 295,  11,   0,  20,   8,   4],
+       [  0,   5, 357,  13,   1,  35,   0],
+       [  0,   0,  11, 421,   0,   4,   0],
+       [  0,  37,  10,   0, 363,   3,   0],
+       [  0,   1,  73,  13,   2, 369,   0],
+       [ 15,   2,   0,   0,   0,   0, 429]])]"
+---
+22/03/2022 19:17:38
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': PCA(n_components=25, random_state=42), 'columns_to_decomp': ['Id', 'S_stony', 'Soil_Type39', 'R_Cryumbrepts', 'F_Moran', 'F_Como', 'Rock', 'ClimZone_2', 'Wilderness_Area3', 'F_Cathedral', 'Soil_Type8', 'Hillshade_Noon', 'Soil_Type16', 'Hillshade_3pm', 'F_Catamount', 'Soil_Type32', 'Aspect', 'Soil_Type24', 'F_Ratake', 'Soil_Type6', 'Soil_Type12', 'R_Cryorthents', 'R_Rock_outcrop', 'Hillshade_9am', 'Soil_Type4', 'Soil_Type14', 'Soil_Type40', 'F_Vanet', 'ClimZone_8', 'Soil_Type5', 'Soil_Type2', 'Soil_Type22', 'Soil_Type3', 'Soil_Type27', 'Wilderness_Area1', 'Soil_Type30', 'Soil_Type36', 'F_Bullwark', 'R_till_substratum', 'Soil_Type38', 'Soil_Type21', 'R_Ratake_families', 'S_extremely stony', 'Soil_Type35', 'F_Leighcan', 'R_Rock_land', 'Soil_Type33', 'Slope', 'Soil_Type1', 'Horizontal_Distance_To_Fire_Points', 'Soil_Type9', 'GeoZone_7', 'Cover_Type', 'Soil_Type23', 'Soil_Type11', 'ClimZone_6', 'Wilderness_Area4', 'Soil_Type37', 'Wilderness_Area2', 'ClimZone_5', 'Elevation', 'Soil_Type15', 'Soil_Type10', 'F_Gateview', 'S_rubbly', 'Soil_Type25', 'Soil_Type29', 'Soil_Type26', 'Soil_Type20', 'Soil_Type28', 'Soil_Type19', 'ClimZone_7', 'F_Legault', 'Soil_Type13', 'GeoZone_1', 'GeoZone_2', 'Soil_Type34', 'Horizontal_Distance_To_Roadways', 'Soil_Type31', 'S_very stony', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Hydrology', 'ClimZone_4', 'Soil_Type7', 'Soil_Type18', 'Soil_Type17'], 'random_state': 2}"
+64.06
+0.7820767195767195
+"[array([[298,  92,   0,   0,   4,   0,  49],
+       [ 93, 275,  11,   0,  20,  13,   5],
+       [  0,   7, 297,  17,  10,  80,   0],
+       [  0,   0,  20, 412,   0,   4,   0],
+       [  1,  73,  11,   0, 323,   5,   0],
+       [  0,   7,  96,  12,   4, 339,   0],
+       [ 20,   5,   0,   0,   0,   0, 421]])]"
+---
+22/03/2022 20:02:53
+"{'model': LGBMClassifier(learning_rate=0.01, max_depth=32, num_iteration=1024,
+               num_leaves=512), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=9, n_iter=3, random_state=42), 'columns_to_decomp': ['Wilderness_Area1', 'Wilderness_Area2', 'Wilderness_Area3', 'Wilderness_Area4', 'ClimZone_2', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'ClimZone_7', 'ClimZone_8', 'GeoZone_1', 'GeoZone_2', 'GeoZone_7', 'F_Cathedral', 'F_Ratake', 'F_Vanet', 'F_Legault', 'F_Catamount', 'F_Bullwark', 'F_Gateview', 'F_Leighcan', 'F_Como', 'F_Moran', 'R_Rock_outcrop', 'R_Ratake_families', 'R_Rock_land', 'R_till_substratum', 'R_Cryumbrepts', 'R_Cryorthents', 'Rock', 'S_rubbly', 'S_stony', 'S_very stony', 'S_extremely stony'], 'random_state': 2}"
+938.18
+0.9077380952380952
+"[array([[348,  64,   0,   0,   4,   0,  27],
+       [ 46, 335,  11,   0,  18,   5,   2],
+       [  0,   3, 375,  13,   2,  18,   0],
+       [  0,   0,   3, 430,   0,   3,   0],
+       [  0,  13,   3,   0, 396,   1,   0],
+       [  0,   0,  24,  13,   2, 419,   0],
+       [  4,   0,   0,   0,   0,   0, 442]])]"
+---
+22/03/2022 20:15:04
+"{'model': LGBMClassifier(learning_rate=0.01, max_depth=32, num_iteration=1024,
+               num_leaves=512), 'add_eng_features': False, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': MCA(n_components=9, n_iter=3, random_state=42), 'columns_to_decomp': ['Wilderness_Area1', 'Wilderness_Area2', 'Wilderness_Area3', 'Wilderness_Area4', 'ClimZone_2', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'ClimZone_7', 'ClimZone_8', 'GeoZone_1', 'GeoZone_2', 'GeoZone_7', 'F_Cathedral', 'F_Ratake', 'F_Vanet', 'F_Legault', 'F_Catamount', 'F_Bullwark', 'F_Gateview', 'F_Leighcan', 'F_Como', 'F_Moran', 'R_Rock_outcrop', 'R_Ratake_families', 'R_Rock_land', 'R_till_substratum', 'R_Cryumbrepts', 'R_Cryorthents', 'Rock', 'S_rubbly', 'S_stony', 'S_very stony', 'S_extremely stony'], 'random_state': 2}"
+731.02
+0.8981481481481481
+"[array([[349,  64,   0,   0,   3,   0,  27],
+       [ 49, 324,  11,   0,  23,   5,   5],
+       [  0,   5, 365,  13,   3,  25,   0],
+       [  0,   0,   4, 430,   0,   2,   0],
+       [  0,   9,   4,   0, 398,   2,   0],
+       [  0,   2,  32,  11,   3, 410,   0],
+       [  5,   0,   0,   0,   1,   0, 440]])]"
+---
+22/03/2022 20:31:56
+"{'model': LGBMClassifier(learning_rate=0.01, max_depth=32, num_iteration=1024,
+               num_leaves=512), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+650.04
+0.9130291005291006
+"[array([[369,  49,   0,   0,   3,   1,  21],
+       [ 48, 331,   9,   0,  19,   7,   3],
+       [  0,   5, 370,  10,   3,  23,   0],
+       [  0,   0,   3, 431,   0,   2,   0],
+       [  1,  11,   3,   0, 397,   1,   0],
+       [  0,   0,  24,  10,   2, 422,   0],
+       [  5,   0,   0,   0,   0,   0, 441]])]"
+---
+22/03/2022 20:42:39
+"{'model': LGBMClassifier(learning_rate=0.01, max_depth=32, num_iteration=1024,
+               num_leaves=512), 'add_eng_features': True, 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+643.1
+0.9136904761904762
+"[array([[374,  46,   0,   0,   4,   1,  18],
+       [ 47, 333,   9,   0,  19,   7,   2],
+       [  0,   6, 369,  10,   3,  23,   0],
+       [  0,   0,   3, 431,   0,   2,   0],
+       [  0,  11,   4,   0, 397,   1,   0],
+       [  0,   0,  26,  12,   2, 418,   0],
+       [  5,   0,   0,   0,   0,   0, 441]])]"
+---
+22/03/2022 20:51:56
+"{'model': LGBMClassifier(learning_rate=0.01, max_depth=32, num_iteration=1024,
+               num_leaves=512), 'add_eng_features': True, 'add_climate': False, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+556.54
+0.91005291005291
+"[array([[365,  51,   0,   0,   4,   1,  22],
+       [ 53, 325,   9,   0,  19,   9,   2],
+       [  0,   5, 368,  11,   2,  25,   0],
+       [  0,   0,   4, 430,   0,   2,   0],
+       [  1,   8,   3,   0, 400,   1,   0],
+       [  0,   0,  23,  10,   2, 423,   0],
+       [  5,   0,   0,   0,   0,   0, 441]])]"
+---
+22/03/2022 21:01:46
+"{'model': LGBMClassifier(learning_rate=0.01, max_depth=32, num_iteration=1024,
+               num_leaves=512), 'add_eng_features': True, 'add_climate': False, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'], 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+590.02
+0.9120370370370371
+"[array([[371,  46,   0,   0,   4,   1,  21],
+       [ 52, 326,   9,   0,  19,   9,   2],
+       [  0,   4, 372,  10,   3,  22,   0],
+       [  0,   0,   4, 430,   0,   2,   0],
+       [  1,  11,   4,   0, 396,   1,   0],
+       [  0,   0,  24,  10,   2, 422,   0],
+       [  5,   0,   0,   0,   0,   0, 441]])]"
+---
+22/03/2022 21:22:45
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'decomposition': MCA(n_components=9, n_iter=3, random_state=42), 'columns_to_decomp': ['Wilderness_Area1', 'Wilderness_Area2', 'Wilderness_Area3', 'Wilderness_Area4', 'ClimZone_2', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'ClimZone_7', 'ClimZone_8', 'GeoZone_1', 'GeoZone_2', 'GeoZone_7', 'F_Cathedral', 'F_Ratake', 'F_Vanet', 'F_Legault', 'F_Catamount', 'F_Bullwark', 'F_Gateview', 'F_Leighcan', 'F_Como', 'F_Moran', 'R_Rock_outcrop', 'R_Ratake_families', 'R_Rock_land', 'R_till_substratum', 'R_Cryumbrepts', 'R_Cryorthents', 'Rock', 'S_rubbly', 'S_stony', 'S_very stony', 'S_extremely stony'], 'random_state': 2}"
+76.47
+0.8948412698412699
+"[array([[343,  72,   0,   0,   4,   0,  24],
+       [ 42, 328,  14,   0,  22,   8,   3],
+       [  0,   3, 366,  12,   4,  26,   0],
+       [  0,   0,   4, 429,   0,   3,   0],
+       [  0,  14,   2,   0, 393,   4,   0],
+       [  0,   0,  33,  15,   2, 408,   0],
+       [  7,   0,   0,   0,   0,   0, 439]])]"
+---
+22/03/2022 21:29:25
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'decomposition': MCA(n_components=9, n_iter=3, random_state=42), 'columns_to_decomp': ['Wilderness_Area1', 'Wilderness_Area2', 'Wilderness_Area3', 'Wilderness_Area4', 'ClimZone_2', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'ClimZone_7', 'ClimZone_8', 'GeoZone_1', 'GeoZone_2', 'GeoZone_7', 'F_Cathedral', 'F_Ratake', 'F_Vanet', 'F_Legault', 'F_Catamount', 'F_Bullwark', 'F_Gateview', 'F_Leighcan', 'F_Como', 'F_Moran', 'R_Rock_outcrop', 'R_Ratake_families', 'R_Rock_land', 'R_till_substratum', 'R_Cryumbrepts', 'R_Cryorthents', 'Rock', 'S_rubbly', 'S_stony', 'S_very stony', 'S_extremely stony'], 'random_state': 2}"
+81.59
+0.8948412698412699
+"[array([[343,  72,   0,   0,   4,   0,  24],
+       [ 42, 328,  14,   0,  22,   8,   3],
+       [  0,   3, 366,  12,   4,  26,   0],
+       [  0,   0,   4, 429,   0,   3,   0],
+       [  0,  14,   2,   0, 393,   4,   0],
+       [  0,   0,  33,  15,   2, 408,   0],
+       [  7,   0,   0,   0,   0,   0, 439]])]"

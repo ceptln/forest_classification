@@ -192,6 +192,7 @@ class ClassifTools:
         add_climate, add_geographic, 
         add_family, add_rocky, add_stony, 
         keep_initial_rows, columns_to_drop,
+        decomposition, columns_to_decomp,
         random_state):
         self.df_train =df_train
         self.df_test =df_test
@@ -204,6 +205,8 @@ class ClassifTools:
         self.add_stony=add_stony
         self.keep_initial_rows=keep_initial_rows
         self.columns_to_drop=columns_to_drop
+        self.decomposition=decomposition
+        self.columns_to_decomp=columns_to_decomp
         self.random_state=random_state
     
 
@@ -211,6 +214,7 @@ class ClassifTools:
 
         """
         Expand row training dataset in X, y (or X_train, X_test, y_train, y_test)
+        Used in self.test_predict() and self.local_metrics()
         """
 
         df_train = self.df_train
@@ -231,6 +235,27 @@ class ClassifTools:
         else:
             return 'Enter positive test_size'
 
+    def perform_decomposition(self, df):
+        
+        """ 
+        Perform a decomposition from the prince package (PCA, MCA, etc)
+        Used in self.enrich_data()
+        """
+
+        columns_to_decomp = [col for col in self.columns_to_decomp if col in df.columns]
+        df_new = df.drop(columns=columns_to_decomp)
+        X = df[columns_to_decomp]
+
+        self.decomposition.fit(X)
+        X_decomp = self.decomposition.transform(X)
+        n_comp = len(X_decomp.columns)
+        X_decomp.columns = ['C' + str(i+1) for i in range(n_comp)]
+
+        for col in X_decomp.columns:
+            df_new[col] = X_decomp[col]
+        
+        return df_new
+
 
     def enrich_data(self, df):
 
@@ -239,12 +264,11 @@ class ClassifTools:
         - extracting climate zone and/or geographical zone from the ELU code
         - extracting properties from the ELU code text description
         - performing some feature engineering on the numerical features (line transformations)
-        Used in test_predict
+        - performing some decomposition transformations (PCA, MCA, etc) from the `prince` package
+        Used in self.test_predict()
         """
         
         df_temp = df.copy()
-        #target = df_temp['Cover_Type']
-        #df_new = df_temp.drop(columns=['Cover_Type'])
         df_new = df.copy()
         
         if self.keep_initial_rows:
@@ -297,7 +321,9 @@ class ClassifTools:
 
         to_drop = [col for col in df_new.columns if col in columns_to_drop]
         df_new.drop(columns=to_drop, inplace=True)
-        #df_new['Cover_Type'] = target
+
+        if self.decomposition is not None:
+            df_new = self.perform_decomposition(df_new)
 
         return df_new
 
@@ -317,10 +343,9 @@ class ClassifTools:
         X_train, X_test, y_train, y_test = self.split_trainset(target=target, split_test_size=0.2)
         X_train = self.enrich_data(df=X_train)
         X_test = self.enrich_data(df=X_test)
-        print([col for col in X_train.columns if col not in X_test.columns])
     
         # Fit and predict
-        if unfitted_model==None:
+        if unfitted_model == None:
             model = self.model
         else:
             model = unfitted_model
