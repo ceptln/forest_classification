@@ -181,8 +181,7 @@ def split_in_groups(df, first_group, second_group, third_group=None, target='Cov
 # Preprocessing and modelling class and methods #
 #################################################
 
-
-
+All the functions used in preprocessing and prediction
 """
 
 class ClassifTools:
