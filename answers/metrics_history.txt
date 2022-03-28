@@ -1113,3 +1113,24 @@
        [  0,  14,   2,   0, 393,   4,   0],
        [  0,   0,  33,  15,   2, 408,   0],
        [  7,   0,   0,   0,   0,   0, 439]])]"
+---
+28/03/2022 14:18:15
+"{'model': XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, enable_categorical=False,
+              gamma=0, gpu_id=-1, importance_type=None,
+              interaction_constraints='', learning_rate=1.0, max_delta_step=0,
+              max_depth=8, min_child_weight=1, missing=nan,
+              monotone_constraints='()', n_estimators=100, n_jobs=1,
+              num_parallel_tree=1, objective='multi:softprob', predictor='auto',
+              random_state=0, reg_alpha=0, reg_lambda=1, scale_pos_weight=None,
+              subsample=0.9000000000000001, tree_method='exact',
+              validate_parameters=1, verbosity=0), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+119.94
+0.8912037037037037
+"[array([[357,  58,   0,   0,   4,   1,  23],
+       [ 61, 315,  12,   0,  21,   5,   3],
+       [  0,   3, 359,  14,   3,  32,   0],
+       [  0,   0,   9, 425,   0,   2,   0],
+       [  0,  17,   3,   0, 388,   5,   0],
+       [  0,   1,  30,  12,   1, 414,   0],
+       [  9,   0,   0,   0,   0,   0, 437]])]"
