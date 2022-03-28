@@ -1134,3 +1134,151 @@
        [  0,  17,   3,   0, 388,   5,   0],
        [  0,   1,  30,  12,   1, 414,   0],
        [  9,   0,   0,   0,   0,   0, 437]])]"
+---
+28/03/2022 14:33:32
+"{'model': ExtraTreesClassifier(max_features=None, n_estimators=300), 'add_eng_features': True, 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+108.68
+0.9041005291005291
+"[array([[365,  51,   0,   0,   3,   0,  24],
+       [ 54, 323,  11,   0,  20,   7,   2],
+       [  0,   2, 369,  13,   1,  26,   0],
+       [  0,   0,   6, 428,   0,   2,   0],
+       [  1,  12,   2,   0, 396,   2,   0],
+       [  0,   0,  27,  12,   3, 416,   0],
+       [  9,   0,   0,   0,   0,   0, 437]])]"
+---
+28/03/2022 14:52:55
+"{'model': ExtraTreesClassifier(max_features=None, n_estimators=300), 'add_eng_features': True, 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['Soil_Type1', 'Soil_Type2', 'Soil_Type3', 'Soil_Type4', 'Soil_Type5', 'Soil_Type6', 'Soil_Type7', 'Soil_Type8', 'Soil_Type9', 'Soil_Type10', 'Soil_Type11', 'Soil_Type12', 'Soil_Type13', 'Soil_Type14', 'Soil_Type15', 'Soil_Type16', 'Soil_Type17', 'Soil_Type18', 'Soil_Type19', 'Soil_Type20', 'Soil_Type21', 'Soil_Type22', 'Soil_Type23', 'Soil_Type24', 'Soil_Type25', 'Soil_Type26', 'Soil_Type27', 'Soil_Type28', 'Soil_Type29', 'Soil_Type30', 'Soil_Type31', 'Soil_Type32', 'Soil_Type33', 'Soil_Type34', 'Soil_Type35', 'Soil_Type36', 'Soil_Type37', 'Soil_Type38', 'Soil_Type39', 'Soil_Type40', 'Cover_Type'], 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+109.74
+0.9054232804232805
+"[array([[365,  51,   0,   0,   3,   0,  24],
+       [ 55, 325,  11,   0,  17,   7,   2],
+       [  0,   2, 368,  13,   2,  26,   0],
+       [  0,   0,   6, 429,   0,   1,   0],
+       [  1,  11,   2,   0, 397,   2,   0],
+       [  0,   0,  27,  13,   2, 416,   0],
+       [  8,   0,   0,   0,   0,   0, 438]])]"
+---
+28/03/2022 14:59:59
+"{'model': ExtraTreesClassifier(max_features=None, n_estimators=300), 'add_eng_features': True, 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['Soil_Type1', 'Soil_Type2', 'Soil_Type3', 'Soil_Type4', 'Soil_Type5', 'Soil_Type6', 'Soil_Type7', 'Soil_Type8', 'Soil_Type9', 'Soil_Type10', 'Soil_Type11', 'Soil_Type12', 'Soil_Type13', 'Soil_Type14', 'Soil_Type15', 'Soil_Type16', 'Soil_Type17', 'Soil_Type18', 'Soil_Type19', 'Soil_Type20', 'Soil_Type21', 'Soil_Type22', 'Soil_Type23', 'Soil_Type24', 'Soil_Type25', 'Soil_Type26', 'Soil_Type27', 'Soil_Type28', 'Soil_Type29', 'Soil_Type30', 'Soil_Type31', 'Soil_Type32', 'Soil_Type33', 'Soil_Type34', 'Soil_Type35', 'Soil_Type36', 'Soil_Type37', 'Soil_Type38', 'Soil_Type39', 'Soil_Type40', 'Cover_Type', 'ClimZone_3', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6', 'GeoZone_1', 'GeoZone_2', 'GeoZone_5', 'GeoZone_7', 'F_Gothic', 'F_Troutville', 'F_Bullwark', 'F_Rogert', 'F_Moran', 'R_Aquolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryumbrepts', 'Rock', 'S_very stony'], 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+99.76
+0.9021164021164021
+"[array([[357,  57,   0,   0,   3,   0,  26],
+       [ 57, 324,  10,   0,  17,   7,   2],
+       [  0,   2, 368,  13,   1,  27,   0],
+       [  0,   0,   7, 428,   0,   1,   0],
+       [  1,  11,   2,   0, 397,   2,   0],
+       [  0,   0,  29,  11,   2, 416,   0],
+       [  8,   0,   0,   0,   0,   0, 438]])]"
+---
+28/03/2022 15:21:24
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+61.34
+0.871031746031746
+"[array([[342,  66,   0,   0,   6,   0,  29],
+       [ 76, 287,   9,   0,  31,  10,   4],
+       [  0,   2, 347,  16,   1,  45,   0],
+       [  0,   0,   5, 426,   0,   5,   0],
+       [  1,  12,   6,   0, 393,   1,   0],
+       [  0,   2,  37,  15,   3, 401,   0],
+       [  8,   0,   0,   0,   0,   0, 438]])]"
+---
+28/03/2022 15:22:46
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': ['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'], 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+64.59
+0.8753306878306878
+"[array([[345,  63,   0,   0,   5,   0,  30],
+       [ 74, 288,   9,   0,  28,  14,   4],
+       [  0,   4, 350,  12,   4,  41,   0],
+       [  0,   0,   4, 427,   0,   5,   0],
+       [  0,  14,   5,   0, 392,   2,   0],
+       [  0,   4,  32,  16,   1, 405,   0],
+       [  6,   0,   0,   0,   0,   0, 440]])]"
+---
+28/03/2022 15:36:14
+"{'model': LGBMClassifier(learning_rate=0.01, max_depth=32, num_iteration=1024,
+               num_leaves=512), 'add_eng_features': True, 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls', 'Vertical_Distance_To_Hydrology'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+584.92
+0.9140211640211641
+"[array([[376,  43,   0,   0,   5,   0,  19],
+       [ 52, 330,   9,   0,  18,   6,   2],
+       [  0,   4, 370,  11,   3,  23,   0],
+       [  0,   0,   4, 430,   0,   2,   0],
+       [  0,  10,   4,   0, 398,   1,   0],
+       [  0,   0,  26,  11,   2, 419,   0],
+       [  5,   0,   0,   0,   0,   0, 441]])]"
+---
+28/03/2022 15:48:57
+"{'model': LGBMClassifier(learning_rate=0.01, max_depth=32, num_iteration=1024,
+               num_leaves=512), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+561.04
+0.9143518518518519
+"[array([[373,  45,   0,   0,   5,   0,  20],
+       [ 48, 331,  10,   0,  19,   7,   2],
+       [  0,   4, 370,  11,   3,  23,   0],
+       [  0,   0,   3, 431,   0,   2,   0],
+       [  1,  11,   3,   0, 397,   1,   0],
+       [  0,   0,  24,  10,   2, 422,   0],
+       [  5,   0,   0,   0,   0,   0, 441]])]"
+---
+28/03/2022 16:05:55
+"{'model': LGBMClassifier(learning_rate=0.01, max_depth=32, num_iteration=1024,
+               num_leaves=512), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': True, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+710.5
+0.9130291005291006
+"[array([[376,  42,   0,   0,   5,   0,  20],
+       [ 52, 324,  13,   0,  20,   6,   2],
+       [  0,   5, 370,  12,   3,  21,   0],
+       [  0,   0,   5, 429,   0,   2,   0],
+       [  1,  10,   3,   0, 398,   1,   0],
+       [  0,   0,  23,  10,   2, 423,   0],
+       [  5,   0,   0,   0,   0,   0, 441]])]"
+---
+28/03/2022 18:15:17
+"{'model': LGBMClassifier(learning_rate=0.01, n_estimators=2048, num_leaves=1028), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': True, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+1293.98
+0.9146825396825397
+"[array([[378,  41,   0,   0,   5,   0,  19],
+       [ 47, 329,  13,   0,  20,   5,   3],
+       [  0,   5, 370,  11,   2,  23,   0],
+       [  0,   0,   3, 431,   0,   2,   0],
+       [  1,  10,   3,   0, 398,   1,   0],
+       [  0,   0,  25,  10,   4, 419,   0],
+       [  5,   0,   0,   0,   0,   0, 441]])]"
+---
+28/03/2022 18:33:12
+"{'model': LGBMClassifier(learning_rate=0.01, n_estimators=2048, num_leaves=1028), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+1074.95
+0.9163359788359788
+"[array([[374,  44,   0,   0,   5,   0,  20],
+       [ 46, 334,  11,   0,  18,   6,   2],
+       [  0,   5, 371,  11,   3,  21,   0],
+       [  0,   0,   3, 431,   0,   2,   0],
+       [  0,  10,   4,   0, 398,   1,   0],
+       [  0,   0,  24,  10,   2, 422,   0],
+       [  5,   0,   0,   0,   0,   0, 441]])]"
+---
+28/03/2022 19:10:35
+"{'model': LGBMClassifier(learning_rate=0.01, min_child_samples=10, n_estimators=4096,
+               num_leaves=2048), 'add_eng_features': True, 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+2104.4
+0.91005291005291
+"[array([[372,  46,   0,   0,   4,   1,  20],
+       [ 52, 324,  13,   0,  20,   6,   2],
+       [  0,   5, 368,  11,   3,  24,   0],
+       [  0,   0,   3, 431,   0,   2,   0],
+       [  0,  10,   3,   0, 399,   1,   0],
+       [  0,   0,  25,  12,   3, 418,   0],
+       [  6,   0,   0,   0,   0,   0, 440]])]"
+---
+28/03/2022 22:57:26
+"{'model': LGBMClassifier(learning_rate=0.01, n_estimators=2048, num_leaves=1028), 'add_eng_features': True, 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+1778.92
+0.9140211640211641
+"[array([[373,  46,   0,   0,   4,   0,  20],
+       [ 49, 327,  10,   0,  19,   8,   4],
+       [  0,   4, 370,  12,   3,  22,   0],
+       [  0,   0,   3, 431,   0,   2,   0],
+       [  0,   9,   4,   0, 399,   1,   0],
+       [  0,   0,  23,   9,   3, 423,   0],
+       [  5,   0,   0,   0,   0,   0, 441]])]"
