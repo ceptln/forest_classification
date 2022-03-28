@@ -31,18 +31,19 @@ def plot_features_labelbreakdown(df, columns_of_interest=[]):
     if columns_of_interest == []:
         return print('Please specify the columns_of_interest argument')
     
-    _ = plt.figure(figsize=(20, 20))
+    _ = plt.figure(figsize=(25, 20))
     i = 0
     for col in columns_of_interest:
         i += 1
         plt.subplot(5, 5, i)
-        sns.distplot(df[df.Cover_Type == 1][col], hist=False, label='1')
-        sns.distplot(df[df.Cover_Type == 2][col], hist=False, label='2')
-        sns.distplot(df[df.Cover_Type == 3][col], hist=False, label='3')
-        sns.distplot(df[df.Cover_Type == 4][col], hist=False, label='4')
-        sns.distplot(df[df.Cover_Type == 5][col], hist=False, label='5')
-        sns.distplot(df[df.Cover_Type == 6][col], hist=False, label='6')
-        sns.distplot(df[df.Cover_Type == 7][col], hist=False, label='7');
+        sns.distplot(df[df['Cover_Type'] == 1][col], hist=False, label='1')
+        sns.distplot(df[df['Cover_Type'] == 2][col], hist=False, label='2')
+        sns.distplot(df[df['Cover_Type'] == 3][col], hist=False, label='3')
+        sns.distplot(df[df['Cover_Type'] == 4][col], hist=False, label='4')
+        sns.distplot(df[df['Cover_Type'] == 5][col], hist=False, label='5')
+        sns.distplot(df[df['Cover_Type'] == 6][col], hist=False, label='6')
+        sns.distplot(df[df['Cover_Type'] == 7][col], hist=False, label='7')
+    plt.legend();
 
 
 def plot_features_hist(df, columns_of_interest=[]):
@@ -293,6 +294,7 @@ class ClassifTools:
         if self.add_climate:
             df_temp['ClimZone'] = df_temp['ELU'].apply(lambda x : int(str(x)[0:1]))
             df_new = df_new.join(pd.get_dummies(df_temp['ClimZone'], prefix='ClimZone'))
+            df_new.drop(columns=['ClimZone_3', 'ClimZone_4', 'ClimZone_5', 'ClimZone_6'], inplace=True)
 
         if self.add_geographic:
             df_temp['GeoZone'] = df_temp['ELU'].apply(lambda x : int(str(x)[1:2]))
