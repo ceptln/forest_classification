@@ -1282,3 +1282,429 @@
        [  0,   9,   4,   0, 399,   1,   0],
        [  0,   0,  23,   9,   3, 423,   0],
        [  5,   0,   0,   0,   0,   0, 441]])]"
+---
+29/03/2022 12:13:15
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+86.34
+0.8991402116402116
+"[array([[363,  54,   0,   0,   4,   0,  22],
+       [ 56, 318,  13,   0,  21,   6,   3],
+       [  0,   2, 366,  12,   4,  27,   0],
+       [  0,   0,   6, 427,   0,   3,   0],
+       [  0,  15,   3,   0, 391,   4,   0],
+       [  0,   1,  29,  12,   3, 413,   0],
+       [  5,   0,   0,   0,   0,   0, 441]])]"
+---
+29/03/2022 12:19:39
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'columns_to_convert_to_log': ['Elevation', 'Aspect', 'Slope', 'Horizontal_Distance_To_Hydrology', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Roadways', 'Hillshade_9am', 'Hillshade_Noon', 'Hillshade_3pm', 'Horizontal_Distance_To_Fire_Points'], 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+97.25
+0.8981481481481481
+"[array([[367,  52,   0,   0,   3,   0,  21],
+       [ 60, 317,  11,   0,  18,   8,   3],
+       [  0,   5, 364,  13,   3,  26,   0],
+       [  0,   0,   6, 427,   0,   3,   0],
+       [  0,  15,   1,   0, 393,   4,   0],
+       [  0,   1,  34,  11,   4, 408,   0],
+       [  6,   0,   0,   0,   0,   0, 440]])]"
+---
+29/03/2022 12:23:38
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'columns_to_convert_to_log': ['Aspect', 'Slope', 'Horizontal_Distance_To_Hydrology', 'Vertical_Distance_To_Hydrology', 'Horizontal_Distance_To_Roadways', 'Hillshade_9am', 'Hillshade_Noon', 'Hillshade_3pm', 'Horizontal_Distance_To_Fire_Points'], 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+95.74
+0.8981481481481481
+"[array([[367,  52,   0,   0,   3,   0,  21],
+       [ 60, 317,  11,   0,  18,   8,   3],
+       [  0,   5, 364,  13,   3,  26,   0],
+       [  0,   0,   6, 427,   0,   3,   0],
+       [  0,  15,   1,   0, 393,   4,   0],
+       [  0,   1,  34,  11,   4, 408,   0],
+       [  6,   0,   0,   0,   0,   0, 440]])]"
+---
+29/03/2022 15:05:10
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 2, 'columns_to_polynomial': ['Elevation', 'Aspect', 'Slope'], 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+58.44
+0.521494708994709
+"[array([[382,  55,   0,   0,   6,   0,   0],
+       [ 37, 161,   6,   0,  16, 113,  84],
+       [  0,   0,   0,   0,   0, 411,   0],
+       [  0,   0,   0,   6,   0, 430,   0],
+       [  0,   0,   0,   0, 124, 275,  14],
+       [  0,   0,   0,   0,   0, 458,   0],
+       [  0,   0,   0,   0,   0,   0, 446]])]"
+---
+29/03/2022 15:11:27
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 2, 'columns_to_polynomial': ['Elevation', 'Aspect', 'Slope'], 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+58.98
+0.521494708994709
+"[array([[382,  55,   0,   0,   6,   0,   0],
+       [ 37, 161,   6,   0,  16, 113,  84],
+       [  0,   0,   0,   0,   0, 411,   0],
+       [  0,   0,   0,   6,   0, 430,   0],
+       [  0,   0,   0,   0, 124, 275,  14],
+       [  0,   0,   0,   0,   0, 458,   0],
+       [  0,   0,   0,   0,   0,   0, 446]])]"
+---
+30/03/2022 17:33:50
+"{'model': HistGradientBoostingClassifier(), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+65.63
+0.9007936507936508
+"[array([[356,  57,   0,   0,   4,   0,  26],
+       [ 57, 317,  12,   0,  19,   8,   4],
+       [  0,   2, 372,  11,   2,  24,   0],
+       [  0,   0,   4, 430,   0,   2,   0],
+       [  0,  12,   4,   0, 393,   4,   0],
+       [  0,   1,  25,  12,   3, 417,   0],
+       [  6,   1,   0,   0,   0,   0, 439]])]"
+---
+30/03/2022 17:47:35
+"{'model': HistGradientBoostingClassifier(learning_rate=0.01,
+                               loss='categorical_crossentropy', max_iter=1000,
+                               max_leaf_nodes=None), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+634.68
+0.9007936507936508
+"[array([[365,  52,   0,   0,   5,   1,  20],
+       [ 55, 313,  13,   0,  23,   6,   7],
+       [  0,   1, 365,  15,   4,  26,   0],
+       [  0,   0,   4, 429,   0,   3,   0],
+       [  0,   9,   2,   0, 400,   2,   0],
+       [  0,   1,  30,  10,   4, 413,   0],
+       [  7,   0,   0,   0,   0,   0, 439]])]"
+---
+31/03/2022 10:15:47
+"{'model': LogisticRegression(), 'add_eng_features': False, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': False, 'add_geographic': False, 'add_family': False, 'add_rocky': False, 'add_stony': False, 'keep_initial_rows': True, 'columns_to_drop': None, 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+16.06
+0.37466931216931215
+"[array([[ 59,  93,  59,   3,  40,  32, 157],
+       [ 35, 105,  50,  13,  94,  25,  95],
+       [ 10,   1, 196,  22,  12, 111,  59],
+       [  1,   0,  21, 306,  53,  32,  23],
+       [ 22,  14,  20,  74, 159,  38,  86],
+       [ 16,   4, 137,  51,  33, 154,  63],
+       [ 86,  57,  66,  20,  20,  43, 154]])]"
+---
+31/03/2022 10:18:37
+"{'model': KNeighborsClassifier(), 'add_eng_features': False, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': False, 'add_geographic': False, 'add_family': False, 'add_rocky': False, 'add_stony': False, 'keep_initial_rows': True, 'columns_to_drop': None, 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+170.87
+0.7496693121693122
+"[array([[266,  72,  12,   2,  26,   8,  57],
+       [ 71, 226,  22,   2,  50,  21,  25],
+       [  1,   6, 280,  27,  11,  86,   0],
+       [  0,   0,  30, 397,   0,   9,   0],
+       [ 10,  15,  10,   3, 367,   5,   3],
+       [  2,   4,  78,  23,  21, 330,   0],
+       [ 21,   8,   0,   1,  14,   1, 401]])]"
+---
+31/03/2022 10:19:01
+"{'model': RandomForestClassifier(), 'add_eng_features': False, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': False, 'add_geographic': False, 'add_family': False, 'add_rocky': False, 'add_stony': False, 'keep_initial_rows': True, 'columns_to_drop': None, 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+23.91
+0.8872354497354498
+"[array([[360,  48,   0,   0,   3,   0,  32],
+       [ 63, 306,  12,   0,  22,   9,   5],
+       [  0,   0, 358,  17,   4,  32,   0],
+       [  0,   0,   5, 429,   0,   2,   0],
+       [  0,  19,   2,   0, 389,   3,   0],
+       [  0,   0,  38,  14,   3, 403,   0],
+       [  8,   0,   0,   0,   0,   0, 438]])]"
+---
+31/03/2022 10:19:28
+"{'model': HistGradientBoostingClassifier(), 'add_eng_features': False, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': False, 'add_geographic': False, 'add_family': False, 'add_rocky': False, 'add_stony': False, 'keep_initial_rows': True, 'columns_to_drop': None, 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+26.5
+0.8928571428571429
+"[array([[360,  51,   0,   0,   4,   1,  27],
+       [ 62, 299,  14,   0,  29,   8,   5],
+       [  0,   1, 361,  12,   2,  35,   0],
+       [  0,   0,   5, 428,   0,   3,   0],
+       [  0,   9,   2,   0, 400,   2,   0],
+       [  0,   0,  30,  12,   2, 414,   0],
+       [  6,   1,   0,   0,   1,   0, 438]])]"
+---
+31/03/2022 10:19:53
+"{'model': ExtraTreesClassifier(), 'add_eng_features': False, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': False, 'add_geographic': False, 'add_family': False, 'add_rocky': False, 'add_stony': False, 'keep_initial_rows': True, 'columns_to_drop': None, 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+24.77
+0.8849206349206349
+"[array([[354,  54,   0,   0,   5,   0,  30],
+       [ 56, 315,  11,   0,  22,   9,   4],
+       [  0,   2, 362,  14,   2,  31,   0],
+       [  0,   0,   5, 428,   0,   3,   0],
+       [  1,  19,   3,   0, 388,   2,   0],
+       [  0,   1,  39,  16,   7, 395,   0],
+       [ 12,   0,   0,   0,   0,   0, 434]])]"
+---
+31/03/2022 10:20:11
+"{'model': LGBMClassifier(), 'add_eng_features': False, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': False, 'add_geographic': False, 'add_family': False, 'add_rocky': False, 'add_stony': False, 'keep_initial_rows': True, 'columns_to_drop': None, 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+18.67
+0.8918650793650794
+"[array([[358,  54,   0,   0,   3,   0,  28],
+       [ 61, 309,  12,   0,  23,   8,   4],
+       [  0,   0, 354,  14,   3,  40,   0],
+       [  0,   0,   8, 428,   0,   0,   0],
+       [  0,  10,   2,   0, 397,   4,   0],
+       [  0,   2,  27,  13,   4, 412,   0],
+       [  7,   0,   0,   0,   0,   0, 439]])]"
+---
+31/03/2022 10:20:42
+"{'model': <catboost.core.CatBoostClassifier object at 0x7fb258baf070>, 'add_eng_features': False, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': False, 'add_geographic': False, 'add_family': False, 'add_rocky': False, 'add_stony': False, 'keep_initial_rows': True, 'columns_to_drop': None, 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+30.61
+0.8759920634920635
+"[array([[346,  55,   0,   0,   4,   0,  38],
+       [ 68, 292,  12,   0,  34,   6,   5],
+       [  0,   0, 362,  13,   4,  32,   0],
+       [  0,   0,   7, 426,   0,   3,   0],
+       [  0,  19,   4,   0, 387,   3,   0],
+       [  0,   2,  38,  15,   4, 399,   0],
+       [  9,   0,   0,   0,   0,   0, 437]])]"
+---
+31/03/2022 10:21:06
+"{'model': XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, enable_categorical=False,
+              gamma=0, gpu_id=-1, importance_type=None,
+              interaction_constraints='', learning_rate=0.300000012,
+              max_delta_step=0, max_depth=6, min_child_weight=1, missing=nan,
+              monotone_constraints='()', n_estimators=100, n_jobs=16,
+              num_parallel_tree=1, objective='multi:softprob', predictor='auto',
+              random_state=0, reg_alpha=0, reg_lambda=1, scale_pos_weight=None,
+              subsample=1, tree_method='exact', validate_parameters=1,
+              verbosity=None), 'add_eng_features': False, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': False, 'add_geographic': False, 'add_family': False, 'add_rocky': False, 'add_stony': False, 'keep_initial_rows': True, 'columns_to_drop': None, 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+24.23
+0.8918650793650794
+"[array([[364,  50,   0,   0,   3,   0,  26],
+       [ 57, 310,  13,   0,  24,   9,   4],
+       [  0,   3, 358,  13,   7,  30,   0],
+       [  0,   0,   5, 428,   0,   3,   0],
+       [  0,  13,   2,   0, 394,   4,   0],
+       [  0,   1,  36,  12,   5, 404,   0],
+       [  7,   0,   0,   0,   0,   0, 439]])]"
+---
+31/03/2022 10:33:30
+"{'model': LogisticRegression(), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+58.49
+0.3878968253968254
+"[array([[ 38, 116,  64,   4,  38,  21, 162],
+       [ 19, 133,  53,  19,  79,  19,  95],
+       [ 10,   1, 220,  24,  16,  77,  63],
+       [  1,   0,  24, 351,  11,  28,  21],
+       [ 16,  28,  26,  95, 132,  31,  85],
+       [ 10,   6, 161,  54,  29, 129,  69],
+       [ 58,  75,  67,  25,  21,  30, 170]])]"
+---
+31/03/2022 10:37:49
+"{'model': KNeighborsClassifier(), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+258.36
+0.7628968253968254
+"[array([[275,  68,   9,   2,  26,   7,  56],
+       [ 79, 227,  19,   2,  53,  17,  20],
+       [  1,   7, 280,  27,  15,  81,   0],
+       [  0,   0,  26, 404,   0,   6,   0],
+       [ 10,  14,   9,   2, 372,   3,   3],
+       [  3,   6,  71,  18,  18, 342,   0],
+       [ 14,   7,   0,   1,  17,   0, 407]])]"
+---
+31/03/2022 10:39:23
+"{'model': RandomForestClassifier(), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+94.41
+0.8915343915343915
+"[array([[359,  50,   0,   0,   5,   0,  29],
+       [ 57, 314,  12,   0,  18,  12,   4],
+       [  0,   1, 362,  15,   2,  31,   0],
+       [  0,   0,   4, 430,   0,   2,   0],
+       [  0,  13,   2,   0, 395,   3,   0],
+       [  0,   1,  38,  16,   1, 402,   0],
+       [ 12,   0,   0,   0,   0,   0, 434]])]"
+---
+31/03/2022 10:41:04
+"{'model': HistGradientBoostingClassifier(), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+100.51
+0.8984788359788359
+"[array([[362,  53,   0,   0,   4,   1,  23],
+       [ 54, 316,  13,   0,  22,   8,   4],
+       [  0,   2, 372,  12,   2,  23,   0],
+       [  0,   0,   7, 426,   0,   3,   0],
+       [  0,  13,   3,   0, 394,   3,   0],
+       [  0,   1,  37,  11,   2, 407,   0],
+       [  6,   0,   0,   0,   0,   0, 440]])]"
+---
+31/03/2022 10:42:37
+"{'model': ExtraTreesClassifier(), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+93.64
+0.90244708994709
+"[array([[364,  47,   0,   0,   4,   0,  28],
+       [ 54, 322,  10,   0,  19,   9,   3],
+       [  0,   1, 374,  10,   2,  24,   0],
+       [  0,   0,   5, 429,   0,   2,   0],
+       [  0,   9,   3,   0, 399,   2,   0],
+       [  0,   2,  36,  14,   2, 404,   0],
+       [  9,   0,   0,   0,   0,   0, 437]])]"
+---
+31/03/2022 10:44:03
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+86.22
+0.8998015873015873
+"[array([[366,  52,   0,   0,   4,   0,  21],
+       [ 58, 317,  12,   0,  20,   6,   4],
+       [  0,   3, 364,  12,   3,  29,   0],
+       [  0,   0,   7, 426,   0,   3,   0],
+       [  0,  12,   3,   0, 394,   4,   0],
+       [  0,   0,  30,  10,   3, 415,   0],
+       [  6,   1,   0,   0,   0,   0, 439]])]"
+---
+31/03/2022 10:45:54
+"{'model': <catboost.core.CatBoostClassifier object at 0x7fb24bb67d60>, 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+110.33
+0.8852513227513228
+"[array([[355,  53,   0,   0,   3,   0,  32],
+       [ 70, 301,  11,   0,  24,   7,   4],
+       [  0,   0, 363,  14,   5,  29,   0],
+       [  0,   0,   5, 428,   0,   3,   0],
+       [  1,  19,   2,   0, 388,   3,   0],
+       [  0,   2,  31,  15,   4, 406,   0],
+       [ 10,   0,   0,   0,   0,   0, 436]])]"
+---
+31/03/2022 10:47:31
+"{'model': XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, enable_categorical=False,
+              gamma=0, gpu_id=-1, importance_type=None,
+              interaction_constraints='', learning_rate=0.300000012,
+              max_delta_step=0, max_depth=6, min_child_weight=1, missing=nan,
+              monotone_constraints='()', n_estimators=100, n_jobs=16,
+              num_parallel_tree=1, objective='multi:softprob', predictor='auto',
+              random_state=0, reg_alpha=0, reg_lambda=1, scale_pos_weight=None,
+              subsample=1, tree_method='exact', validate_parameters=1,
+              verbosity=None), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': False, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['Id', 'ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+96.97
+0.8908730158730159
+"[array([[358,  56,   0,   0,   5,   0,  24],
+       [ 62, 305,  14,   0,  26,   8,   2],
+       [  0,   2, 360,  13,   2,  34,   0],
+       [  0,   0,   7, 427,   0,   2,   0],
+       [  0,  17,   2,   0, 389,   5,   0],
+       [  0,   2,  28,  11,   3, 414,   0],
+       [  5,   0,   0,   0,   0,   0, 441]])]"
+---
+31/03/2022 10:48:54
+"{'model': LogisticRegression(), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+82.88
+0.3912037037037037
+"[array([[  9, 105,  59,   6,  39,  28, 197],
+       [  3, 117,  49,  20,  84,  26, 118],
+       [  3,   0, 197,  24,  17, 107,  63],
+       [  0,   0,  22, 351,   7,  36,  20],
+       [  4,  16,  19,  95, 138,  41, 100],
+       [  6,   3, 140,  55,  29, 157,  68],
+       [ 19,  65,  63,  26,  22,  37, 214]])]"
+---
+31/03/2022 10:53:57
+"{'model': KNeighborsClassifier(), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+302.86
+0.7628968253968254
+"[array([[275,  68,   9,   2,  26,   7,  56],
+       [ 79, 227,  19,   2,  53,  17,  20],
+       [  1,   7, 280,  27,  15,  81,   0],
+       [  0,   0,  26, 404,   0,   6,   0],
+       [ 10,  14,   9,   2, 372,   3,   3],
+       [  3,   6,  71,  18,  18, 342,   0],
+       [ 14,   7,   0,   1,  17,   0, 407]])]"
+---
+31/03/2022 10:55:32
+"{'model': RandomForestClassifier(), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+95.29
+0.8898809523809523
+"[array([[359,  51,   0,   0,   5,   0,  28],
+       [ 60, 308,  11,   0,  22,  12,   4],
+       [  0,   2, 361,  18,   1,  29,   0],
+       [  0,   0,   4, 430,   0,   2,   0],
+       [  0,  13,   2,   0, 395,   3,   0],
+       [  0,   0,  41,  14,   1, 402,   0],
+       [ 10,   0,   0,   0,   0,   0, 436]])]"
+---
+31/03/2022 10:57:10
+"{'model': HistGradientBoostingClassifier(), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+98.32
+0.8951719576719577
+"[array([[364,  56,   0,   0,   4,   0,  19],
+       [ 56, 313,  12,   0,  21,  10,   5],
+       [  0,   3, 368,  11,   3,  26,   0],
+       [  0,   0,   6, 427,   0,   3,   0],
+       [  0,  16,   3,   0, 390,   4,   0],
+       [  0,   2,  34,  13,   3, 406,   0],
+       [  7,   0,   0,   0,   0,   0, 439]])]"
+---
+31/03/2022 10:58:44
+"{'model': ExtraTreesClassifier(), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+93.65
+0.8935185185185185
+"[array([[360,  50,   0,   0,   5,   1,  27],
+       [ 56, 313,  10,   0,  24,  11,   3],
+       [  0,   2, 367,  13,   2,  27,   0],
+       [  0,   0,   4, 429,   0,   3,   0],
+       [  0,  16,   4,   0, 391,   2,   0],
+       [  0,   1,  35,  14,   3, 405,   0],
+       [  9,   0,   0,   0,   0,   0, 437]])]"
+---
+31/03/2022 11:00:13
+"{'model': LGBMClassifier(), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+89.12
+0.8991402116402116
+"[array([[363,  54,   0,   0,   4,   0,  22],
+       [ 56, 318,  13,   0,  21,   6,   3],
+       [  0,   2, 366,  12,   4,  27,   0],
+       [  0,   0,   6, 427,   0,   3,   0],
+       [  0,  15,   3,   0, 391,   4,   0],
+       [  0,   1,  29,  12,   3, 413,   0],
+       [  5,   0,   0,   0,   0,   0, 441]])]"
+---
+31/03/2022 11:02:07
+"{'model': <catboost.core.CatBoostClassifier object at 0x7fb21aa1e5b0>, 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+113.33
+0.8819444444444444
+"[array([[355,  54,   0,   0,   4,   0,  30],
+       [ 67, 296,  13,   0,  28,   8,   5],
+       [  0,   0, 355,  14,   4,  38,   0],
+       [  0,   0,   6, 428,   0,   2,   0],
+       [  0,  17,   3,   0, 390,   3,   0],
+       [  0,   1,  32,  15,   4, 406,   0],
+       [  9,   0,   0,   0,   0,   0, 437]])]"
+---
+31/03/2022 11:03:44
+"{'model': XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, enable_categorical=False,
+              gamma=0, gpu_id=-1, importance_type=None,
+              interaction_constraints='', learning_rate=0.300000012,
+              max_delta_step=0, max_depth=6, min_child_weight=1, missing=nan,
+              monotone_constraints='()', n_estimators=100, n_jobs=16,
+              num_parallel_tree=1, objective='multi:softprob', predictor='auto',
+              random_state=0, reg_alpha=0, reg_lambda=1, scale_pos_weight=None,
+              subsample=1, tree_method='exact', validate_parameters=1,
+              verbosity=None), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+97.38
+0.8971560846560847
+"[array([[363,  53,   0,   0,   5,   0,  22],
+       [ 62, 310,  15,   0,  22,   6,   2],
+       [  0,   0, 368,  12,   3,  28,   0],
+       [  0,   0,   7, 428,   0,   1,   0],
+       [  0,  17,   3,   0, 390,   3,   0],
+       [  0,   2,  23,  15,   2, 416,   0],
+       [  7,   1,   0,   0,   0,   0, 438]])]"
+---
+31/03/2022 14:23:40
+"{'model': HistGradientBoostingClassifier(learning_rate=0.01,
+                               loss='categorical_crossentropy', max_iter=1000), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+210.91
+0.8971560846560847
+"[array([[353,  60,   0,   0,   4,   0,  26],
+       [ 52, 320,  12,   0,  23,   8,   2],
+       [  0,   1, 368,  11,   3,  28,   0],
+       [  0,   0,   7, 427,   0,   2,   0],
+       [  1,  13,   3,   0, 394,   2,   0],
+       [  0,   0,  30,  12,   4, 412,   0],
+       [  6,   1,   0,   0,   0,   0, 439]])]"
+---
+31/03/2022 14:25:25
+"{'model': ExtraTreesClassifier(max_features=None, n_estimators=300), 'add_eng_features': True, 'columns_to_convert_to_log': [], 'polynomial_degree': 0, 'columns_to_polynomial': [], 'add_climate': True, 'add_geographic': True, 'add_family': True, 'add_rocky': True, 'add_stony': True, 'keep_initial_rows': False, 'columns_to_drop': (['ClimZone_3', 'GeoZone_5', 'F_Gothic', 'F_Troutville', 'F_Rogert', 'F_Bross', 'R_Limber_families', 'R_Aquolis', 'R_Cryoborolis', 'R_Cryaquolis', 'R_Borohemists', 'R_Cryaquepts', 'R_Cryaquolls'],), 'decomposition': None, 'columns_to_decomp': None, 'random_state': 2}"
+105.01
+0.9017857142857143
+"[array([[361,  54,   0,   0,   3,   0,  25],
+       [ 59, 320,  11,   0,  18,   7,   2],
+       [  0,   2, 369,  13,   2,  25,   0],
+       [  0,   0,   6, 429,   0,   1,   0],
+       [  0,  10,   2,   0, 399,   2,   0],
+       [  0,   0,  31,  14,   2, 411,   0],
+       [  8,   0,   0,   0,   0,   0, 438]])]"
