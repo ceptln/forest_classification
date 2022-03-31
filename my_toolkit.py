@@ -10,6 +10,8 @@ from csv import writer
 
 # Import ML packages 
 from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import PolynomialFeatures
+from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import confusion_matrix
 
@@ -189,6 +191,9 @@ class ClassifTools:
     def __init__(self, 
         df_train, df_test, model, 
         add_eng_features,
+        columns_to_convert_to_log,
+        polynomial_degree,
+        columns_to_polynomial,
         add_climate, add_geographic, 
         add_family, add_rocky, add_stony, 
         keep_initial_rows, columns_to_drop,
@@ -198,6 +203,9 @@ class ClassifTools:
         self.df_test =df_test
         self.model=model
         self.add_eng_features=add_eng_features
+        self.columns_to_convert_to_log=columns_to_convert_to_log
+        self.polynomial_degree=polynomial_degree
+        self.columns_to_polynomial=columns_to_polynomial
         self.add_climate=add_climate
         self.add_geographic=add_geographic
         self.add_family=add_family
@@ -287,6 +295,20 @@ class ClassifTools:
             df_new['Mean_Distance_Hydrology_Roadways'] = (df_new['Horizontal_Distance_To_Hydrology'] + df_new['Horizontal_Distance_To_Roadways']) / 2
             df_new['Mean_Distance_Firepoints_Roadways'] = (df_new['Horizontal_Distance_To_Fire_Points'] + df_new['Horizontal_Distance_To_Roadways']) / 2
 
+        if len(self.columns_to_convert_to_log) > 0:
+            for col in self.columns_to_convert_to_log:
+                df_new[col] = df_new[col].apply(lambda x : np.log(x))
+
+        if self.polynomial_degree > 0 and len(self.columns_to_polynomial) > 0:
+            #num_encoder = StandardScaler()
+            poly_encoder = PolynomialFeatures(degree=self.polynomial_degree, include_bias=False)
+            X = df_new[self.columns_to_polynomial]
+            #X = pd.DataFrame(num_encoder.fit_transform(X), columns=self.columns_to_polynomial)
+            X_enc = pd.DataFrame(poly_encoder.fit_transform(X), columns=poly_encoder.get_feature_names(self.columns_to_polynomial))
+            df_new.drop(columns=self.columns_to_polynomial, inplace=True)
+            df_new = df_new.join(X_enc)
+            
+
         for col in elu_dict.keys():
             df_temp[col] = df_temp[col] * elu_dict[col]
             df_temp['ELU'] = df_temp[list(elu_dict.keys())].sum(axis=1)
@@ -357,7 +379,7 @@ class ClassifTools:
 
         # Compute accuracy and confusion matrix
         accuracy = accuracy_score(y_test, y_pred)
-        matrix = pd.DataFrame(np.array(confusion_matrix(y_test, y_pred)), columns=['true'+str(i) for i in list(y_test.unique())], index=['pred'+str(i) for i in list(y_test.unique())])
+        matrix = pd.DataFrame(np.array(confusion_matrix(y_test, y_pred)), columns=['pred'+str(i) for i in list(y_test.unique())], index=['true'+str(i) for i in list(y_test.unique())])
         
         if compute_accuracy and compute_matrix:
             return accuracy, matrix #, test_details
