@@ -140,6 +140,29 @@ def outlier_function(df, col_name):
             outlier_count +=1
     return lower_limit, upper_limit, outlier_count
 
+def outlier_function_2(df, col_name, num_IQR):
+
+    ''' 
+    Detect potential outliers with the IQR method (quartile +/- num_IQR*IQR)
+    '''
+
+    first_quartile = np.percentile(np.array(df[col_name].tolist()), 25)
+    third_quartile = np.percentile(np.array(df[col_name].tolist()), 75)
+    IQR = third_quartile - first_quartile
+                      
+    upper_limit = third_quartile+(num_IQR*IQR)
+    lower_limit = first_quartile-(num_IQR*IQR)
+    outlier_count = 0
+
+    idx_outliers = list()
+    value_outliers = list()                  
+    for idx, value in enumerate(df[col_name].tolist()):
+        if (value < lower_limit) | (value > upper_limit):
+            outlier_count +=1
+            idx_outliers.append(idx)
+            value_outliers.append(value)
+    return df.iloc[idx_outliers]
+
 
 def relabel(df, first_group, second_group, third_group=None, drop_cover_type=True):
     
